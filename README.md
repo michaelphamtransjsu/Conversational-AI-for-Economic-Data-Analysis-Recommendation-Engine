@@ -11,17 +11,17 @@ Python 3.11+ is required; the recorded offline implementation was validated on P
 ```bash
 git clone https://github.com/michaelphamtransjsu/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine.git
 cd Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements-lock.txt
-python -m pip install --no-deps -e .
+python3 -m pip install -r requirements-lock.txt
+python3 -m pip install --no-deps -e .
 cp .env.example .env
 ```
 
 For offline use, set `DEMO_MODE=true` in `.env`, then:
 
 ```bash
-python -m streamlit run app.py
+python3 -m streamlit run app.py
 ```
 
 Windows PowerShell: `.venv\Scripts\Activate.ps1`, then `Copy-Item .env.example .env`. All demo observations are **synthetic fixtures, not empirical economic findings**. No FRED or model request occurs in demo mode.
@@ -57,20 +57,20 @@ Latest means the most recent valid observation in a snapshot, not today's econom
 ## Validation and artifacts
 
 ```bash
-python -m pytest -q
-python scripts/export_demo.py
-python scripts/evaluate.py
+python3 -m pytest -q
+python3 scripts/export_demo.py
+python3 scripts/evaluate.py
 ```
 
-To retain a machine-readable test record, run `python -m pytest -q --junitxml=artifacts/test_results.xml > artifacts/test_results.txt 2>&1` before evaluation. The recorded final run has **180 passed, 1 skipped**, with ten known PNG-renderer deprecation warnings; evaluation passed **12/12** scenarios. See the generated record for the actual execution timestamp.
+To retain a machine-readable test record, run `python3 -m pytest -q --junitxml=artifacts/test_results.xml > artifacts/test_results.txt 2>&1` before evaluation. The recorded final run has **180 passed, 1 skipped**, with ten known PNG-renderer deprecation warnings; evaluation passed **12/12** scenarios. See the generated record for the actual execution timestamp.
 
 Live checks are explicit opt-in:
 
 ```bash
-DEMO_MODE=false python scripts/live_smoke.py --confirm-live
-DEMO_MODE=false RUN_LIVE_TESTS=1 python -m pytest -q -m live
-DEMO_MODE=false python scripts/evaluate.py --live
-DEMO_MODE=false python scripts/evaluate.py --live --with-llm
+DEMO_MODE=false python3 scripts/live_smoke.py --confirm-live
+DEMO_MODE=false RUN_LIVE_TESTS=1 python3 -m pytest -q -m live
+DEMO_MODE=false python3 scripts/evaluate.py --live
+DEMO_MODE=false python3 scripts/evaluate.py --live --with-llm
 ```
 
 The final command makes configured model calls. A compatible OpenAI Chat Completions model must accept strict function tools; model compatibility and live grounding have not been validated without credentials. Live evaluation defaults to `work/live_evaluation/` so it preserves the synthetic submission record.
