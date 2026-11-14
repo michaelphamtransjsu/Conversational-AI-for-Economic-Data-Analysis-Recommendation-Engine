@@ -1,0 +1,3 @@
+# Preserve checksummed snapshots and standalone exports byte-for-byte on checkout.
+# Their third-party/generated content may intentionally contain CRLF or whitespace.
+artifacts/** -text -whitespace

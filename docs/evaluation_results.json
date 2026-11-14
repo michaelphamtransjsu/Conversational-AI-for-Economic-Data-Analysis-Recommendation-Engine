@@ -1,0 +1,193 @@
+{
+  "generated_at_utc": "2026-11-14T18:03:06.702027+00:00",
+  "mode": "DEMO / SYNTHETIC \u2014 not empirical economic findings",
+  "llm_requested": false,
+  "provider": "openai",
+  "model_configuration": "gpt-4.1-mini",
+  "tests": {
+    "tests": 181,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "passed": 180,
+    "status": "PASS",
+    "source": "artifacts/test_results.xml"
+  },
+  "scenarios": [
+    {
+      "scenario": "Rubric 1",
+      "prompt": "What is the latest reported GDP?",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_0ecdc69fe62742b8a88b520c02801700",
+      "snapshot_ids": [
+        "DEMO-GDP-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Rubric 2",
+      "prompt": "Show GDP over the last ten years.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_ddd8399d145d459cbe80a9abc69c2204",
+      "snapshot_ids": [
+        "DEMO-GDP-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Rubric 3",
+      "prompt": "What is current Core CPI inflation?",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_d46bba591bd94070a44ad7b721ed34bc",
+      "snapshot_ids": [
+        "DEMO-CPILFESL-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Rubric 4",
+      "prompt": "Show Core CPI inflation over the last five years.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_95b54d5ffa1247ab96df270faceaec88",
+      "snapshot_ids": [
+        "DEMO-CPILFESL-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Rubric 5",
+      "prompt": "What is the relationship between GDP growth and Core CPI inflation?",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_34a067bd96b344b6837f2f88dda27406",
+      "snapshot_ids": [
+        "DEMO-GDP-v1",
+        "DEMO-CPILFESL-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Rubric 6",
+      "prompt": "Visualize the comparison of GDP growth and Core CPI inflation.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_b4ed786c2fe44b048bb2662a6d54bf79",
+      "snapshot_ids": [
+        "DEMO-GDP-v1",
+        "DEMO-CPILFESL-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Rubric 7",
+      "prompt": "Summarize the key economic trends in both indicators.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_3b10e26e128e496a9d6eab2e47bec860",
+      "snapshot_ids": [
+        "DEMO-GDP-v1",
+        "DEMO-CPILFESL-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Follow-up last five years",
+      "prompt": "Use the last five years.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_1a0140ad51c94b16af958e710417722e",
+      "snapshot_ids": [
+        "DEMO-GDP-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Follow-up graph",
+      "prompt": "Now graph it.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_0093d9154d0f44e4bc7e8701945c863e",
+      "snapshot_ids": [
+        "DEMO-GDP-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Follow-up compare",
+      "prompt": "Now compare it with inflation.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": "result_0665549cc0ba432d8cb14e803bde4d36",
+      "snapshot_ids": [
+        "DEMO-GDP-v1",
+        "DEMO-CPILFESL-v1"
+      ],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Unsupported real GDP",
+      "prompt": "Show real GDP.",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": null,
+      "snapshot_ids": [],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 0,
+      "model_calls": 0
+    },
+    {
+      "scenario": "Missing credentials failure",
+      "prompt": "What is the latest reported GDP?",
+      "status": "PASS",
+      "detail": "Validated against returned evidence and independent calendar calculations.",
+      "result_id": null,
+      "snapshot_ids": [],
+      "fresh_live_evidence": false,
+      "model_tools_succeeded": false,
+      "tool_calls": 1,
+      "model_calls": 0
+    }
+  ],
+  "status": "PASS",
+  "live_fred_validated": false,
+  "live_model_validated": false,
+  "snapshot_ids": [
+    "DEMO-CPILFESL-v1",
+    "DEMO-GDP-v1"
+  ]
+}

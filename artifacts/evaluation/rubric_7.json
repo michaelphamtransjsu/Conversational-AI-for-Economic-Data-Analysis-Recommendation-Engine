@@ -1,0 +1,2948 @@
+{
+  "result_id": "result_3b10e26e128e496a9d6eab2e47bec860",
+  "operation": "summarize_economy",
+  "series": [
+    "GDP",
+    "CPILFESL"
+  ],
+  "metric": "economic_summary",
+  "units": "mixed; see row_units and component evidence",
+  "start": "2016-01-01",
+  "end": "2025-12-31",
+  "records": [
+    {
+      "date": "2016-01-01",
+      "period": "2016Q1",
+      "value": 6.291289937590716,
+      "level": 19880.47256873602,
+      "baseline": 18703.76451392104,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-04-01",
+      "period": "2016Q2",
+      "value": 6.4119645205288345,
+      "level": 20187.356897874004,
+      "baseline": 18970.94653673036,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-07-01",
+      "period": "2016Q3",
+      "value": 6.317668924738906,
+      "level": 20478.81703257589,
+      "baseline": 19261.913132305992,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-10-01",
+      "period": "2016Q4",
+      "value": 6.0192059241509055,
+      "level": 20746.282515209266,
+      "baseline": 19568.41907498509,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-01-01",
+      "period": "2017Q1",
+      "value": 5.550630228541609,
+      "level": 20983.964088713205,
+      "baseline": 19880.47256873602,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-04-01",
+      "period": "2017Q2",
+      "value": 4.96498202146578,
+      "level": 21189.655538462583,
+      "baseline": 20187.356897874004,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-07-01",
+      "period": "2017Q3",
+      "value": 4.3278213564434065,
+      "level": 21365.103649658682,
+      "baseline": 20478.81703257589,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-10-01",
+      "period": "2017Q4",
+      "value": 3.7095461848836164,
+      "level": 21515.87544675739,
+      "baseline": 20746.282515209266,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-01-01",
+      "period": "2018Q1",
+      "value": 3.177537471005376,
+      "level": 21650.73741053438,
+      "baseline": 20983.964088713205,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-04-01",
+      "period": "2018Q2",
+      "value": 2.789037111241699,
+      "level": 21780.642895174584,
+      "baseline": 21189.655538462583,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-07-01",
+      "period": "2018Q3",
+      "value": 2.585413036986939,
+      "level": 21917.47982478273,
+      "baseline": 21365.103649658682,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-10-01",
+      "period": "2018Q4",
+      "value": 2.5882008371651555,
+      "level": 22072.749515193776,
+      "baseline": 21515.87544675739,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-01-01",
+      "period": "2019Q1",
+      "value": 2.7971063514611094,
+      "level": 22256.331561782605,
+      "baseline": 21650.73741053438,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-04-01",
+      "period": "2019Q2",
+      "value": 3.190032657980124,
+      "level": 22475.45251664868,
+      "baseline": 21780.642895174584,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-07-01",
+      "period": "2019Q3",
+      "value": 3.7251307403946665,
+      "level": 22733.93460325551,
+      "baseline": 21917.47982478273,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-10-01",
+      "period": "2019Q4",
+      "value": 4.34480814329774,
+      "level": 23031.768133579626,
+      "baseline": 22072.749515193776,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-01-01",
+      "period": "2020Q1",
+      "value": 4.981506823756177,
+      "level": 23365.032237250605,
+      "baseline": 22256.331561782605,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-04-01",
+      "period": "2020Q2",
+      "value": 5.564854373676886,
+      "level": 23726.178719025076,
+      "baseline": 22475.45251664868,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-07-01",
+      "period": "2020Q3",
+      "value": 6.029526966663035,
+      "level": 24104.68332074234,
+      "baseline": 22733.93460325551,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-10-01",
+      "period": "2020Q4",
+      "value": 6.322912737645403,
+      "level": 24488.046734602685,
+      "baseline": 23031.768133579626,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-01-01",
+      "period": "2021Q1",
+      "value": 6.411530907079932,
+      "level": 24863.088500591115,
+      "baseline": 23365.032237250605,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-04-01",
+      "period": "2021Q2",
+      "value": 6.285228621666716,
+      "level": 25217.42329470104,
+      "baseline": 23726.178719025076,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-07-01",
+      "period": "2021Q3",
+      "value": 5.958470547129768,
+      "level": 25540.953776887673,
+      "baseline": 24104.68332074234,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-10-01",
+      "period": "2021Q4",
+      "value": 5.468503970137295,
+      "level": 25827.176542493507,
+      "baseline": 24488.046734602685,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-01-01",
+      "period": "2022Q1",
+      "value": 4.870707574835853,
+      "level": 26074.096835527547,
+      "baseline": 24863.088500591115,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-04-01",
+      "period": "2022Q2",
+      "value": 4.23187594783474,
+      "level": 26284.593365773166,
+      "baseline": 25217.42329470104,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-07-01",
+      "period": "2022Q3",
+      "value": 3.6224463572823717,
+      "level": 26466.161126593717,
+      "baseline": 25540.953776887673,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-10-01",
+      "period": "2022Q4",
+      "value": 3.1087016056045025,
+      "level": 26630.06639435231,
+      "baseline": 25827.176542493507,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-01-01",
+      "period": "2023Q1",
+      "value": 2.745821620773836,
+      "level": 26790.04502385897,
+      "baseline": 26074.096835527547,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-04-01",
+      "period": "2023Q2",
+      "value": 2.572396892147699,
+      "level": 26960.737428627977,
+      "baseline": 26284.593365773166,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-07-01",
+      "period": "2023Q3",
+      "value": 2.6067572119238713,
+      "level": 27156.069690480588,
+      "baseline": 26466.161126593717,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-10-01",
+      "period": "2023Q4",
+      "value": 2.845276750333081,
+      "level": 27387.76548206908,
+      "baseline": 26630.06639435231,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-01-01",
+      "period": "2024Q1",
+      "value": 3.26270680707903,
+      "level": 27664.125646471955,
+      "baseline": 26790.04502385897,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-04-01",
+      "period": "2024Q2",
+      "value": 3.8145273751356568,
+      "level": 27989.162138381438,
+      "baseline": 26960.737428627977,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-07-01",
+      "period": "2024Q3",
+      "value": 4.441238142446613,
+      "level": 28362.135415563596,
+      "baseline": 27156.069690480588,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-10-01",
+      "period": "2024Q4",
+      "value": 5.074374366815326,
+      "level": 28777.52323333469,
+      "baseline": 27387.76548206908,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-01-01",
+      "period": "2025Q1",
+      "value": 5.643814224240318,
+      "level": 29225.43750471925,
+      "baseline": 27664.125646471955,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-04-01",
+      "period": "2025Q2",
+      "value": 6.085675048751282,
+      "level": 29692.491594991458,
+      "baseline": 27989.162138381438,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-07-01",
+      "period": "2025Q3",
+      "value": 6.3498572133098286,
+      "level": 30163.090517097462,
+      "baseline": 28362.135415563596,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-10-01",
+      "period": "2025Q4",
+      "value": 6.406186742642861,
+      "level": 30621.065111569547,
+      "baseline": 28777.52323333469,
+      "series": "GDP",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-01-01",
+      "period": "2016-01",
+      "value": 2.1520021449030757,
+      "level": 242.6089734519686,
+      "baseline": 237.49801115775165,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-02-01",
+      "period": "2016-02",
+      "value": 2.255905234459954,
+      "level": 243.17810540454946,
+      "baseline": 237.81326354401986,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-03-01",
+      "period": "2016-03",
+      "value": 2.3613153952223964,
+      "level": 243.76893919672148,
+      "baseline": 238.1455711618367,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-04-01",
+      "period": "2016-04",
+      "value": 2.4673649311989454,
+      "level": 244.38075975278818,
+      "baseline": 238.49618843704633,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-05-01",
+      "period": "2016-05",
+      "value": 2.573178380405494,
+      "level": 245.01268720533994,
+      "baseline": 238.86623294120776,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-06-01",
+      "period": "2016-06",
+      "value": 2.6778797290563983,
+      "level": 245.6636826317606,
+      "baseline": 239.25667658897055,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-07-01",
+      "period": "2016-07",
+      "value": 2.780599712877274,
+      "level": 246.33255503468607,
+      "baseline": 239.668337918662,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-08-01",
+      "period": "2016-08",
+      "value": 2.880483143307866,
+      "level": 247.01796954554885,
+      "baseline": 240.10187549514518,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-09-01",
+      "period": "2016-09",
+      "value": 2.976696193473316,
+      "level": 247.71845682242608,
+      "baseline": 240.55778246858003,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-10-01",
+      "period": "2016-10",
+      "value": 3.06843357658666,
+      "level": 248.43242360462756,
+      "baseline": 241.03638231779843,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-11-01",
+      "period": "2016-11",
+      "value": 3.1549255480034732,
+      "level": 249.15816437682903,
+      "baseline": 241.53782580249404,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2016-12-01",
+      "period": "2016-12",
+      "value": 3.235444661584097,
+      "level": 249.89387408513653,
+      "baseline": 242.06208914420154,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-01-01",
+      "period": "2017-01",
+      "value": 3.3093122113963425,
+      "level": 250.6376618363579,
+      "baseline": 242.6089734519686,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-02-01",
+      "period": "2017-02",
+      "value": 3.3759042911747583,
+      "level": 251.38756550009913,
+      "baseline": 243.17810540454946,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-03-01",
+      "period": "2017-03",
+      "value": 3.4346574063743196,
+      "level": 252.14156712128178,
+      "baseline": 243.76893919672148,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-04-01",
+      "period": "2017-04",
+      "value": 3.485073577124198,
+      "level": 252.897609038508,
+      "baseline": 244.38075975278818,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-05-01",
+      "period": "2017-05",
+      "value": 3.526724874886522,
+      "level": 253.6536105916386,
+      "baseline": 245.01268720533994,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-06-01",
+      "period": "2017-06",
+      "value": 3.559257341110067,
+      "level": 254.40748529027286,
+      "baseline": 245.6636826317606,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-07-01",
+      "period": "2017-07",
+      "value": 3.582394242570852,
+      "level": 255.15715830382632,
+      "baseline": 246.33255503468607,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-08-01",
+      "period": "2017-08",
+      "value": 3.595938625314554,
+      "level": 255.900584123905,
+      "baseline": 247.01796954554885,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-09-01",
+      "period": "2017-09",
+      "value": 3.599775137040395,
+      "level": 256.63576424097994,
+      "baseline": 247.71845682242608,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-10-01",
+      "period": "2017-10",
+      "value": 3.5938710962567955,
+      "level": 257.36076467028454,
+      "baseline": 248.43242360462756,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-11-01",
+      "period": "2017-11",
+      "value": 3.5782767954374073,
+      "level": 258.0737331566629,
+      "baseline": 249.15816437682903,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2017-12-01",
+      "period": "2017-12",
+      "value": 3.5531250345488985,
+      "level": 258.7729158850596,
+      "baseline": 249.89387408513653,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-01-01",
+      "period": "2018-01",
+      "value": 3.5186298905326874,
+      "level": 259.45667352266423,
+      "baseline": 250.6376618363579,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-02-01",
+      "period": "2018-02",
+      "value": 3.4750847374281912,
+      "level": 260.12349642058535,
+      "baseline": 251.38756550009913,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-03-01",
+      "period": "2018-03",
+      "value": 3.4228595406505136,
+      "level": 260.7720188074383,
+      "baseline": 252.14156712128178,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-04-01",
+      "period": "2018-04",
+      "value": 3.3623974573183,
+      "level": 261.40103181443754,
+      "baseline": 252.897609038508,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-05-01",
+      "period": "2018-05",
+      "value": 3.2942107823138,
+      "level": 262.0094951814766,
+      "baseline": 253.6536105916386,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-06-01",
+      "period": "2018-06",
+      "value": 3.218876286815875,
+      "level": 262.596547506166,
+      "baseline": 254.40748529027286,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-07-01",
+      "period": "2018-07",
+      "value": 3.137030002259822,
+      "level": 263.1615149127309,
+      "baseline": 255.15715830382632,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-08-01",
+      "period": "2018-08",
+      "value": 3.0493615079595804,
+      "level": 263.70391803482306,
+      "baseline": 255.900584123905,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-09-01",
+      "period": "2018-09",
+      "value": 2.956607784910248,
+      "level": 264.2234772253927,
+      "baseline": 256.63576424097994,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-10-01",
+      "period": "2018-10",
+      "value": 2.859546701535187,
+      "level": 264.7201159274594,
+      "baseline": 257.36076467028454,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-11-01",
+      "period": "2018-11",
+      "value": 2.7589901993414268,
+      "level": 265.1939621615298,
+      "baseline": 258.0737331566629,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2018-12-01",
+      "period": "2018-12",
+      "value": 2.6557772476127894,
+      "level": 265.6453481081192,
+      "baseline": 258.7729158850596,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-01-01",
+      "period": "2019-01",
+      "value": 2.550766636442914,
+      "level": 266.07480778690496,
+      "baseline": 259.45667352266423,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-02-01",
+      "period": "2019-02",
+      "value": 2.444829676649718,
+      "level": 266.4830728570147,
+      "baseline": 260.12349642058535,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-03-01",
+      "period": "2019-03",
+      "value": 2.338842873500635,
+      "level": 266.87106658539983,
+      "baseline": 260.7720188074383,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-04-01",
+      "period": "2019-04",
+      "value": 2.2336806388084884,
+      "level": 267.23989605172227,
+      "baseline": 261.40103181443754,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-05-01",
+      "period": "2019-05",
+      "value": 2.1302081029397124,
+      "level": 267.5908426783039,
+      "baseline": 262.0094951814766,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-06-01",
+      "period": "2019-06",
+      "value": 2.0292740847260404,
+      "level": 267.92535119209396,
+      "baseline": 262.596547506166,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-07-01",
+      "period": "2019-07",
+      "value": 1.9317042733043355,
+      "level": 268.24501714199255,
+      "baseline": 263.1615149127309,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-08-01",
+      "period": "2019-08",
+      "value": 1.8382946716503978,
+      "level": 268.55157310899057,
+      "baseline": 263.70391803482306,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-09-01",
+      "period": "2019-09",
+      "value": 1.749805347132094,
+      "level": 268.846873758261,
+      "baseline": 264.2234772253927,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-10-01",
+      "period": "2019-10",
+      "value": 1.6669545298954258,
+      "level": 269.1328798914566,
+      "baseline": 264.7201159274594,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-11-01",
+      "period": "2019-11",
+      "value": 1.5904130954130125,
+      "level": 269.41164166399136,
+      "baseline": 265.1939621615298,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2019-12-01",
+      "period": "2019-12",
+      "value": 1.5207994631490918,
+      "level": 269.68528113602804,
+      "baseline": 265.6453481081192,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-01-01",
+      "period": "2020-01",
+      "value": 1.4586749391029663,
+      "level": 269.95597432735894,
+      "baseline": 266.07480778690496,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-02-01",
+      "period": "2020-02",
+      "value": 1.404539526035875,
+      "level": 270.2259329454864,
+      "baseline": 266.4830728570147,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-03-01",
+      "period": "2020-03",
+      "value": 1.3588282215037273,
+      "level": 270.49738595319025,
+      "baseline": 266.87106658539983,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-04-01",
+      "period": "2020-04",
+      "value": 1.3219078204299795,
+      "level": 270.7725611369389,
+      "baseline": 267.23989605172227,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-05-01",
+      "period": "2020-05",
+      "value": 1.2940742358646506,
+      "level": 271.05366683093695,
+      "baseline": 267.5908426783039,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-06-01",
+      "period": "2020-06",
+      "value": 1.275550348775445,
+      "level": 271.34287394368255,
+      "baseline": 267.92535119209396,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-07-01",
+      "period": "2020-07",
+      "value": 1.2664843951808669,
+      "level": 271.64229842494615,
+      "baseline": 268.24501714199255,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-08-01",
+      "period": "2020-08",
+      "value": 1.2669488966240428,
+      "level": 271.95398430136146,
+      "baseline": 268.55157310899057,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-09-01",
+      "period": "2020-09",
+      "value": 1.276940137853666,
+      "level": 272.279887398645,
+      "baseline": 268.846873758261,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-10-01",
+      "period": "2020-10",
+      "value": 1.296378193567338,
+      "level": 272.6218598580892,
+      "baseline": 269.1328798914566,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-11-01",
+      "period": "2020-11",
+      "value": 1.3251075041230909,
+      "level": 272.98163554466214,
+      "baseline": 269.41164166399136,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2020-12-01",
+      "period": "2020-12",
+      "value": 1.3628979981714417,
+      "level": 273.360816433994,
+      "baseline": 269.68528113602804,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-01-01",
+      "period": "2021-01",
+      "value": 1.4094467581399428,
+      "level": 273.760860055921,
+      "baseline": 269.95597432735894,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-02-01",
+      "period": "2021-02",
+      "value": 1.4643802223558877,
+      "level": 274.1830680632168,
+      "baseline": 270.2259329454864,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-03-01",
+      "period": "2021-03",
+      "value": 1.527256915260189,
+      "level": 274.6285759857584,
+      "baseline": 270.49738595319025,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-04-01",
+      "period": "2021-04",
+      "value": 1.5975706946065538,
+      "level": 275.09834422269824,
+      "baseline": 270.7725611369389,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-05-01",
+      "period": "2021-05",
+      "value": 1.6747545017116394,
+      "level": 275.5931503182425,
+      "baseline": 271.05366683093695,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-06-01",
+      "period": "2021-06",
+      "value": 1.7581845977058919,
+      "level": 276.1135825603329,
+      "baseline": 271.34287394368255,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-07-01",
+      "period": "2021-07",
+      "value": 1.847185265316087,
+      "level": 276.6600349358177,
+      "baseline": 271.64229842494615,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-08-01",
+      "period": "2021-08",
+      "value": 1.9410339520016473,
+      "level": 277.23270347047213,
+      "baseline": 271.95398430136146,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-09-01",
+      "period": "2021-09",
+      "value": 2.0389668262836613,
+      "level": 277.8315839773459,
+      "baseline": 272.279887398645,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-10-01",
+      "period": "2021-10",
+      "value": 2.1401847148935005,
+      "level": 278.4564712322304,
+      "baseline": 272.6218598580892,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-11-01",
+      "period": "2021-11",
+      "value": 2.2438593839791077,
+      "level": 279.1069595903707,
+      "baseline": 272.98163554466214,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2021-12-01",
+      "period": "2021-12",
+      "value": 2.349140123115223,
+      "level": 279.78244505372027,
+      "baseline": 273.360816433994,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-01-01",
+      "period": "2022-01",
+      "value": 2.455160586354843,
+      "level": 280.48212879288,
+      "baseline": 273.760860055921,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-02-01",
+      "period": "2022-02",
+      "value": 2.561045840132703,
+      "level": 281.20502212219805,
+      "baseline": 274.1830680632168,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-03-01",
+      "period": "2022-03",
+      "value": 2.6659195635936106,
+      "level": 281.94995292018126,
+      "baseline": 274.6285759857584,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-04-01",
+      "period": "2022-04",
+      "value": 2.7689113429900214,
+      "level": 282.7155734802583,
+      "baseline": 275.09834422269824,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-05-01",
+      "period": "2022-05",
+      "value": 2.869163998287294,
+      "level": 283.5003697689193,
+      "baseline": 275.5931503182425,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-06-01",
+      "period": "2022-06",
+      "value": 2.9658408771555678,
+      "level": 284.3026720592859,
+      "baseline": 276.1135825603329,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-07-01",
+      "period": "2022-07",
+      "value": 3.058133049227707,
+      "level": 285.1206668981948,
+      "baseline": 276.6600349358177,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-08-01",
+      "period": "2022-08",
+      "value": 3.145266331968166,
+      "level": 285.95241035393406,
+      "baseline": 277.23270347047213,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-09-01",
+      "period": "2022-09",
+      "value": 3.2265080788258294,
+      "level": 286.7958424799047,
+      "baseline": 277.8315839773459,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-10-01",
+      "period": "2022-10",
+      "value": 3.3011736606100017,
+      "level": 287.6488029168128,
+      "baseline": 278.4564712322304,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-11-01",
+      "period": "2022-11",
+      "value": 3.368632572294472,
+      "level": 288.5090475426727,
+      "baseline": 279.1069595903707,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2022-12-01",
+      "period": "2022-12",
+      "value": 3.428314099755281,
+      "level": 289.374266066137,
+      "baseline": 279.78244505372027,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-01-01",
+      "period": "2023-01",
+      "value": 3.4797124842961047,
+      "level": 290.24210044470533,
+      "baseline": 280.48212879288,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-02-01",
+      "period": "2023-02",
+      "value": 3.522391527196933,
+      "level": 291.1101639954826,
+      "baseline": 281.20502212219805,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-03-01",
+      "period": "2023-03",
+      "value": 3.5559885818973402,
+      "level": 291.97606105268784,
+      "baseline": 281.94995292018126,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-04-01",
+      "period": "2023-04",
+      "value": 3.5802178877255786,
+      "level": 292.83740701338445,
+      "baseline": 282.7155734802583,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-05-01",
+      "period": "2023-05",
+      "value": 3.594873206219251,
+      "level": 293.69184860127467,
+      "baseline": 283.5003697689193,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-06-01",
+      "period": "2023-06",
+      "value": 3.599829728934556,
+      "level": 294.5370841682314,
+      "baseline": 284.3026720592859,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-07-01",
+      "period": "2023-07",
+      "value": 3.5950452340734573,
+      "level": 295.37088384487686,
+      "baseline": 285.1206668981948,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-08-01",
+      "period": "2023-08",
+      "value": 3.5805604781178557,
+      "level": 296.19110934529243,
+      "baseline": 285.95241035393406,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-09-01",
+      "period": "2023-09",
+      "value": 3.556498817784104,
+      "level": 296.99573322715645,
+      "baseline": 286.7958424799047,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-10-01",
+      "period": "2023-10",
+      "value": 3.523065066822073,
+      "level": 297.7828574075069,
+      "baseline": 287.6488029168128,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-11-01",
+      "period": "2023-11",
+      "value": 3.48054360131016,
+      "level": 298.5507307361201,
+      "baseline": 288.5090475426727,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2023-12-01",
+      "period": "2023-12",
+      "value": 3.429295735963489,
+      "level": 299.2977654333187,
+      "baseline": 289.374266066137,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-01-01",
+      "period": "2024-01",
+      "value": 3.3697564024136817,
+      "level": 300.02255220694076,
+      "baseline": 290.24210044470533,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-02-01",
+      "period": "2024-02",
+      "value": 3.3024301682823776,
+      "level": 300.7238738742057,
+      "baseline": 291.1101639954826,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-03-01",
+      "period": "2024-03",
+      "value": 3.227886643016986,
+      "level": 301.4007173282147,
+      "baseline": 291.97606105268784,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-04-01",
+      "period": "2024-04",
+      "value": 3.146755322774686,
+      "level": 302.0522837056535,
+      "baseline": 292.83740701338445,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-05-01",
+      "period": "2024-05",
+      "value": 3.0597199320321344,
+      "level": 302.6779966316815,
+      "baseline": 293.69184860127467,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-06-01",
+      "period": "2024-06",
+      "value": 2.9675123239983225,
+      "level": 303.27750843966896,
+      "baseline": 294.5370841682314,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-07-01",
+      "period": "2024-07",
+      "value": 2.87090600527502,
+      "level": 303.85070428701334,
+      "baseline": 295.37088384487686,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-08-01",
+      "period": "2024-08",
+      "value": 2.770709352528411,
+      "level": 304.3977041132801,
+      "baseline": 296.19110934529243,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-09-01",
+      "period": "2024-09",
+      "value": 2.6677585902187717,
+      "level": 304.9188624129072,
+      "baseline": 296.99573322715645,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-10-01",
+      "period": "2024-10",
+      "value": 2.5629105987194034,
+      "level": 305.4147658211734,
+      "baseline": 297.7828574075069,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-11-01",
+      "period": "2024-11",
+      "value": 2.4570356214987044,
+      "level": 305.8862285385513,
+      "baseline": 298.5507307361201,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2024-12-01",
+      "period": "2024-12",
+      "value": 2.351009938521087,
+      "level": 306.33428564442755,
+      "baseline": 299.2977654333187,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-01-01",
+      "period": "2025-01",
+      "value": 2.245708570733629,
+      "level": 306.76018437598583,
+      "baseline": 300.02255220694076,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-02-01",
+      "period": "2025-02",
+      "value": 2.14199807755755,
+      "level": 307.1653734713478,
+      "baseline": 300.7238738742057,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-03-01",
+      "period": "2025-03",
+      "value": 2.04072950580656,
+      "level": 307.5514906974442,
+      "baseline": 301.4007173282147,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-04-01",
+      "period": "2025-04",
+      "value": 1.9427315445313509,
+      "level": 307.92034870218055,
+      "baseline": 302.0522837056535,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-05-01",
+      "period": "2025-05",
+      "value": 1.848803936056198,
+      "level": 308.27391934698403,
+      "baseline": 302.6779966316815,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-06-01",
+      "period": "2025-06",
+      "value": 1.7597111890500061,
+      "level": 308.6143166895539,
+      "baseline": 303.27750843966896,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-07-01",
+      "period": "2025-07",
+      "value": 1.6761766349649987,
+      "level": 308.94377879744883,
+      "baseline": 303.85070428701334,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-08-01",
+      "period": "2025-08",
+      "value": 1.598876864683807,
+      "level": 309.26464858097603,
+      "baseline": 304.3977041132801,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-09-01",
+      "period": "2025-09",
+      "value": 1.5284365778246212,
+      "level": 309.5793538387128,
+      "baseline": 304.9188624129072,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-10-01",
+      "period": "2025-10",
+      "value": 1.4654238729370883,
+      "level": 309.8903867109917,
+      "baseline": 305.4147658211734,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-11-01",
+      "period": "2025-11",
+      "value": 1.4103460028365156,
+      "level": 310.2002827359721,
+      "baseline": 305.8862285385513,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    },
+    {
+      "date": "2025-12-01",
+      "period": "2025-12",
+      "value": 1.3636456156069787,
+      "level": 310.5115996997187,
+      "baseline": 306.33428564442755,
+      "series": "CPILFESL",
+      "row_metric": "yoy",
+      "row_units": "percent, year-over-year"
+    }
+  ],
+  "summary": {
+    "components": [
+      {
+        "result_id": "result_2a1b7549df784fbd8fe7b71a5a604b90",
+        "operation": "analyze_history",
+        "series": [
+          "GDP"
+        ],
+        "metric": "yoy",
+        "units": "percent, year-over-year",
+        "start": "2016-01-01",
+        "end": "2025-12-31",
+        "records": [
+          {
+            "date": "2016-01-01",
+            "period": "2016Q1",
+            "value": 6.291289937590716,
+            "level": 19880.47256873602,
+            "baseline": 18703.76451392104
+          },
+          {
+            "date": "2016-04-01",
+            "period": "2016Q2",
+            "value": 6.4119645205288345,
+            "level": 20187.356897874004,
+            "baseline": 18970.94653673036
+          },
+          {
+            "date": "2016-07-01",
+            "period": "2016Q3",
+            "value": 6.317668924738906,
+            "level": 20478.81703257589,
+            "baseline": 19261.913132305992
+          },
+          {
+            "date": "2016-10-01",
+            "period": "2016Q4",
+            "value": 6.0192059241509055,
+            "level": 20746.282515209266,
+            "baseline": 19568.41907498509
+          },
+          {
+            "date": "2017-01-01",
+            "period": "2017Q1",
+            "value": 5.550630228541609,
+            "level": 20983.964088713205,
+            "baseline": 19880.47256873602
+          },
+          {
+            "date": "2017-04-01",
+            "period": "2017Q2",
+            "value": 4.96498202146578,
+            "level": 21189.655538462583,
+            "baseline": 20187.356897874004
+          },
+          {
+            "date": "2017-07-01",
+            "period": "2017Q3",
+            "value": 4.3278213564434065,
+            "level": 21365.103649658682,
+            "baseline": 20478.81703257589
+          },
+          {
+            "date": "2017-10-01",
+            "period": "2017Q4",
+            "value": 3.7095461848836164,
+            "level": 21515.87544675739,
+            "baseline": 20746.282515209266
+          },
+          {
+            "date": "2018-01-01",
+            "period": "2018Q1",
+            "value": 3.177537471005376,
+            "level": 21650.73741053438,
+            "baseline": 20983.964088713205
+          },
+          {
+            "date": "2018-04-01",
+            "period": "2018Q2",
+            "value": 2.789037111241699,
+            "level": 21780.642895174584,
+            "baseline": 21189.655538462583
+          },
+          {
+            "date": "2018-07-01",
+            "period": "2018Q3",
+            "value": 2.585413036986939,
+            "level": 21917.47982478273,
+            "baseline": 21365.103649658682
+          },
+          {
+            "date": "2018-10-01",
+            "period": "2018Q4",
+            "value": 2.5882008371651555,
+            "level": 22072.749515193776,
+            "baseline": 21515.87544675739
+          },
+          {
+            "date": "2019-01-01",
+            "period": "2019Q1",
+            "value": 2.7971063514611094,
+            "level": 22256.331561782605,
+            "baseline": 21650.73741053438
+          },
+          {
+            "date": "2019-04-01",
+            "period": "2019Q2",
+            "value": 3.190032657980124,
+            "level": 22475.45251664868,
+            "baseline": 21780.642895174584
+          },
+          {
+            "date": "2019-07-01",
+            "period": "2019Q3",
+            "value": 3.7251307403946665,
+            "level": 22733.93460325551,
+            "baseline": 21917.47982478273
+          },
+          {
+            "date": "2019-10-01",
+            "period": "2019Q4",
+            "value": 4.34480814329774,
+            "level": 23031.768133579626,
+            "baseline": 22072.749515193776
+          },
+          {
+            "date": "2020-01-01",
+            "period": "2020Q1",
+            "value": 4.981506823756177,
+            "level": 23365.032237250605,
+            "baseline": 22256.331561782605
+          },
+          {
+            "date": "2020-04-01",
+            "period": "2020Q2",
+            "value": 5.564854373676886,
+            "level": 23726.178719025076,
+            "baseline": 22475.45251664868
+          },
+          {
+            "date": "2020-07-01",
+            "period": "2020Q3",
+            "value": 6.029526966663035,
+            "level": 24104.68332074234,
+            "baseline": 22733.93460325551
+          },
+          {
+            "date": "2020-10-01",
+            "period": "2020Q4",
+            "value": 6.322912737645403,
+            "level": 24488.046734602685,
+            "baseline": 23031.768133579626
+          },
+          {
+            "date": "2021-01-01",
+            "period": "2021Q1",
+            "value": 6.411530907079932,
+            "level": 24863.088500591115,
+            "baseline": 23365.032237250605
+          },
+          {
+            "date": "2021-04-01",
+            "period": "2021Q2",
+            "value": 6.285228621666716,
+            "level": 25217.42329470104,
+            "baseline": 23726.178719025076
+          },
+          {
+            "date": "2021-07-01",
+            "period": "2021Q3",
+            "value": 5.958470547129768,
+            "level": 25540.953776887673,
+            "baseline": 24104.68332074234
+          },
+          {
+            "date": "2021-10-01",
+            "period": "2021Q4",
+            "value": 5.468503970137295,
+            "level": 25827.176542493507,
+            "baseline": 24488.046734602685
+          },
+          {
+            "date": "2022-01-01",
+            "period": "2022Q1",
+            "value": 4.870707574835853,
+            "level": 26074.096835527547,
+            "baseline": 24863.088500591115
+          },
+          {
+            "date": "2022-04-01",
+            "period": "2022Q2",
+            "value": 4.23187594783474,
+            "level": 26284.593365773166,
+            "baseline": 25217.42329470104
+          },
+          {
+            "date": "2022-07-01",
+            "period": "2022Q3",
+            "value": 3.6224463572823717,
+            "level": 26466.161126593717,
+            "baseline": 25540.953776887673
+          },
+          {
+            "date": "2022-10-01",
+            "period": "2022Q4",
+            "value": 3.1087016056045025,
+            "level": 26630.06639435231,
+            "baseline": 25827.176542493507
+          },
+          {
+            "date": "2023-01-01",
+            "period": "2023Q1",
+            "value": 2.745821620773836,
+            "level": 26790.04502385897,
+            "baseline": 26074.096835527547
+          },
+          {
+            "date": "2023-04-01",
+            "period": "2023Q2",
+            "value": 2.572396892147699,
+            "level": 26960.737428627977,
+            "baseline": 26284.593365773166
+          },
+          {
+            "date": "2023-07-01",
+            "period": "2023Q3",
+            "value": 2.6067572119238713,
+            "level": 27156.069690480588,
+            "baseline": 26466.161126593717
+          },
+          {
+            "date": "2023-10-01",
+            "period": "2023Q4",
+            "value": 2.845276750333081,
+            "level": 27387.76548206908,
+            "baseline": 26630.06639435231
+          },
+          {
+            "date": "2024-01-01",
+            "period": "2024Q1",
+            "value": 3.26270680707903,
+            "level": 27664.125646471955,
+            "baseline": 26790.04502385897
+          },
+          {
+            "date": "2024-04-01",
+            "period": "2024Q2",
+            "value": 3.8145273751356568,
+            "level": 27989.162138381438,
+            "baseline": 26960.737428627977
+          },
+          {
+            "date": "2024-07-01",
+            "period": "2024Q3",
+            "value": 4.441238142446613,
+            "level": 28362.135415563596,
+            "baseline": 27156.069690480588
+          },
+          {
+            "date": "2024-10-01",
+            "period": "2024Q4",
+            "value": 5.074374366815326,
+            "level": 28777.52323333469,
+            "baseline": 27387.76548206908
+          },
+          {
+            "date": "2025-01-01",
+            "period": "2025Q1",
+            "value": 5.643814224240318,
+            "level": 29225.43750471925,
+            "baseline": 27664.125646471955
+          },
+          {
+            "date": "2025-04-01",
+            "period": "2025Q2",
+            "value": 6.085675048751282,
+            "level": 29692.491594991458,
+            "baseline": 27989.162138381438
+          },
+          {
+            "date": "2025-07-01",
+            "period": "2025Q3",
+            "value": 6.3498572133098286,
+            "level": 30163.090517097462,
+            "baseline": 28362.135415563596
+          },
+          {
+            "date": "2025-10-01",
+            "period": "2025Q4",
+            "value": 6.406186742642861,
+            "level": 30621.065111569547,
+            "baseline": 28777.52323333469
+          }
+        ],
+        "summary": {
+          "first": 6.291289937590716,
+          "last": 6.406186742642861,
+          "first_period": "2016Q1",
+          "last_period": "2025Q4",
+          "n": 40,
+          "min": 2.572396892147699,
+          "max": 6.4119645205288345,
+          "min_period": "2023Q2",
+          "max_period": "2016Q2",
+          "direction": "increased",
+          "change_pp": 0.11489680505214483,
+          "requested_start": "2016-01-01",
+          "requested_end": "2025-12-31",
+          "missing_periods": 0
+        },
+        "formulas": [
+          "100 * (G[q] / G[q-4] - 1)",
+          "Rate change in percentage points = last rate - first rate"
+        ],
+        "provenance": [
+          {
+            "snapshot_id": "DEMO-GDP-v1",
+            "series": "GDP",
+            "title": "DEMO / SYNTHETIC — not empirical economic findings: GDP",
+            "frequency": "Quarterly",
+            "native_units": "Billions of Dollars",
+            "seasonal_adjustment": "Seasonally Adjusted Annual Rate",
+            "source_url": "https://fred.stlouisfed.org/series/GDP",
+            "source_urls": [
+              "https://fred.stlouisfed.org/series/GDP"
+            ],
+            "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+            "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+            "observation_start": "2010-01-01",
+            "observation_end": "2025-10-01",
+            "realtime_parameters": {
+              "request": "none; synthetic fixture"
+            },
+            "demo": true,
+            "provenance_note": "Synthetic fixture timestamp; not a live retrieval",
+            "stale": false,
+            "data_warnings": [
+              "DEMO / SYNTHETIC — not empirical economic findings",
+              "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+            ]
+          }
+        ],
+        "warnings": [
+          "DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred.",
+          "GDP is nominal, at SAAR; it is not real GDP or the actual dollar total for a quarter.",
+          "DEMO / SYNTHETIC — not empirical economic findings",
+          "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+        ],
+        "defaults": []
+      },
+      {
+        "result_id": "result_bb2655dbd8044276979b307eeb8a6c7a",
+        "operation": "analyze_history",
+        "series": [
+          "CPILFESL"
+        ],
+        "metric": "yoy",
+        "units": "percent, year-over-year",
+        "start": "2016-01-01",
+        "end": "2025-12-31",
+        "records": [
+          {
+            "date": "2016-01-01",
+            "period": "2016-01",
+            "value": 2.1520021449030757,
+            "level": 242.6089734519686,
+            "baseline": 237.49801115775165
+          },
+          {
+            "date": "2016-02-01",
+            "period": "2016-02",
+            "value": 2.255905234459954,
+            "level": 243.17810540454946,
+            "baseline": 237.81326354401986
+          },
+          {
+            "date": "2016-03-01",
+            "period": "2016-03",
+            "value": 2.3613153952223964,
+            "level": 243.76893919672148,
+            "baseline": 238.1455711618367
+          },
+          {
+            "date": "2016-04-01",
+            "period": "2016-04",
+            "value": 2.4673649311989454,
+            "level": 244.38075975278818,
+            "baseline": 238.49618843704633
+          },
+          {
+            "date": "2016-05-01",
+            "period": "2016-05",
+            "value": 2.573178380405494,
+            "level": 245.01268720533994,
+            "baseline": 238.86623294120776
+          },
+          {
+            "date": "2016-06-01",
+            "period": "2016-06",
+            "value": 2.6778797290563983,
+            "level": 245.6636826317606,
+            "baseline": 239.25667658897055
+          },
+          {
+            "date": "2016-07-01",
+            "period": "2016-07",
+            "value": 2.780599712877274,
+            "level": 246.33255503468607,
+            "baseline": 239.668337918662
+          },
+          {
+            "date": "2016-08-01",
+            "period": "2016-08",
+            "value": 2.880483143307866,
+            "level": 247.01796954554885,
+            "baseline": 240.10187549514518
+          },
+          {
+            "date": "2016-09-01",
+            "period": "2016-09",
+            "value": 2.976696193473316,
+            "level": 247.71845682242608,
+            "baseline": 240.55778246858003
+          },
+          {
+            "date": "2016-10-01",
+            "period": "2016-10",
+            "value": 3.06843357658666,
+            "level": 248.43242360462756,
+            "baseline": 241.03638231779843
+          },
+          {
+            "date": "2016-11-01",
+            "period": "2016-11",
+            "value": 3.1549255480034732,
+            "level": 249.15816437682903,
+            "baseline": 241.53782580249404
+          },
+          {
+            "date": "2016-12-01",
+            "period": "2016-12",
+            "value": 3.235444661584097,
+            "level": 249.89387408513653,
+            "baseline": 242.06208914420154
+          },
+          {
+            "date": "2017-01-01",
+            "period": "2017-01",
+            "value": 3.3093122113963425,
+            "level": 250.6376618363579,
+            "baseline": 242.6089734519686
+          },
+          {
+            "date": "2017-02-01",
+            "period": "2017-02",
+            "value": 3.3759042911747583,
+            "level": 251.38756550009913,
+            "baseline": 243.17810540454946
+          },
+          {
+            "date": "2017-03-01",
+            "period": "2017-03",
+            "value": 3.4346574063743196,
+            "level": 252.14156712128178,
+            "baseline": 243.76893919672148
+          },
+          {
+            "date": "2017-04-01",
+            "period": "2017-04",
+            "value": 3.485073577124198,
+            "level": 252.897609038508,
+            "baseline": 244.38075975278818
+          },
+          {
+            "date": "2017-05-01",
+            "period": "2017-05",
+            "value": 3.526724874886522,
+            "level": 253.6536105916386,
+            "baseline": 245.01268720533994
+          },
+          {
+            "date": "2017-06-01",
+            "period": "2017-06",
+            "value": 3.559257341110067,
+            "level": 254.40748529027286,
+            "baseline": 245.6636826317606
+          },
+          {
+            "date": "2017-07-01",
+            "period": "2017-07",
+            "value": 3.582394242570852,
+            "level": 255.15715830382632,
+            "baseline": 246.33255503468607
+          },
+          {
+            "date": "2017-08-01",
+            "period": "2017-08",
+            "value": 3.595938625314554,
+            "level": 255.900584123905,
+            "baseline": 247.01796954554885
+          },
+          {
+            "date": "2017-09-01",
+            "period": "2017-09",
+            "value": 3.599775137040395,
+            "level": 256.63576424097994,
+            "baseline": 247.71845682242608
+          },
+          {
+            "date": "2017-10-01",
+            "period": "2017-10",
+            "value": 3.5938710962567955,
+            "level": 257.36076467028454,
+            "baseline": 248.43242360462756
+          },
+          {
+            "date": "2017-11-01",
+            "period": "2017-11",
+            "value": 3.5782767954374073,
+            "level": 258.0737331566629,
+            "baseline": 249.15816437682903
+          },
+          {
+            "date": "2017-12-01",
+            "period": "2017-12",
+            "value": 3.5531250345488985,
+            "level": 258.7729158850596,
+            "baseline": 249.89387408513653
+          },
+          {
+            "date": "2018-01-01",
+            "period": "2018-01",
+            "value": 3.5186298905326874,
+            "level": 259.45667352266423,
+            "baseline": 250.6376618363579
+          },
+          {
+            "date": "2018-02-01",
+            "period": "2018-02",
+            "value": 3.4750847374281912,
+            "level": 260.12349642058535,
+            "baseline": 251.38756550009913
+          },
+          {
+            "date": "2018-03-01",
+            "period": "2018-03",
+            "value": 3.4228595406505136,
+            "level": 260.7720188074383,
+            "baseline": 252.14156712128178
+          },
+          {
+            "date": "2018-04-01",
+            "period": "2018-04",
+            "value": 3.3623974573183,
+            "level": 261.40103181443754,
+            "baseline": 252.897609038508
+          },
+          {
+            "date": "2018-05-01",
+            "period": "2018-05",
+            "value": 3.2942107823138,
+            "level": 262.0094951814766,
+            "baseline": 253.6536105916386
+          },
+          {
+            "date": "2018-06-01",
+            "period": "2018-06",
+            "value": 3.218876286815875,
+            "level": 262.596547506166,
+            "baseline": 254.40748529027286
+          },
+          {
+            "date": "2018-07-01",
+            "period": "2018-07",
+            "value": 3.137030002259822,
+            "level": 263.1615149127309,
+            "baseline": 255.15715830382632
+          },
+          {
+            "date": "2018-08-01",
+            "period": "2018-08",
+            "value": 3.0493615079595804,
+            "level": 263.70391803482306,
+            "baseline": 255.900584123905
+          },
+          {
+            "date": "2018-09-01",
+            "period": "2018-09",
+            "value": 2.956607784910248,
+            "level": 264.2234772253927,
+            "baseline": 256.63576424097994
+          },
+          {
+            "date": "2018-10-01",
+            "period": "2018-10",
+            "value": 2.859546701535187,
+            "level": 264.7201159274594,
+            "baseline": 257.36076467028454
+          },
+          {
+            "date": "2018-11-01",
+            "period": "2018-11",
+            "value": 2.7589901993414268,
+            "level": 265.1939621615298,
+            "baseline": 258.0737331566629
+          },
+          {
+            "date": "2018-12-01",
+            "period": "2018-12",
+            "value": 2.6557772476127894,
+            "level": 265.6453481081192,
+            "baseline": 258.7729158850596
+          },
+          {
+            "date": "2019-01-01",
+            "period": "2019-01",
+            "value": 2.550766636442914,
+            "level": 266.07480778690496,
+            "baseline": 259.45667352266423
+          },
+          {
+            "date": "2019-02-01",
+            "period": "2019-02",
+            "value": 2.444829676649718,
+            "level": 266.4830728570147,
+            "baseline": 260.12349642058535
+          },
+          {
+            "date": "2019-03-01",
+            "period": "2019-03",
+            "value": 2.338842873500635,
+            "level": 266.87106658539983,
+            "baseline": 260.7720188074383
+          },
+          {
+            "date": "2019-04-01",
+            "period": "2019-04",
+            "value": 2.2336806388084884,
+            "level": 267.23989605172227,
+            "baseline": 261.40103181443754
+          },
+          {
+            "date": "2019-05-01",
+            "period": "2019-05",
+            "value": 2.1302081029397124,
+            "level": 267.5908426783039,
+            "baseline": 262.0094951814766
+          },
+          {
+            "date": "2019-06-01",
+            "period": "2019-06",
+            "value": 2.0292740847260404,
+            "level": 267.92535119209396,
+            "baseline": 262.596547506166
+          },
+          {
+            "date": "2019-07-01",
+            "period": "2019-07",
+            "value": 1.9317042733043355,
+            "level": 268.24501714199255,
+            "baseline": 263.1615149127309
+          },
+          {
+            "date": "2019-08-01",
+            "period": "2019-08",
+            "value": 1.8382946716503978,
+            "level": 268.55157310899057,
+            "baseline": 263.70391803482306
+          },
+          {
+            "date": "2019-09-01",
+            "period": "2019-09",
+            "value": 1.749805347132094,
+            "level": 268.846873758261,
+            "baseline": 264.2234772253927
+          },
+          {
+            "date": "2019-10-01",
+            "period": "2019-10",
+            "value": 1.6669545298954258,
+            "level": 269.1328798914566,
+            "baseline": 264.7201159274594
+          },
+          {
+            "date": "2019-11-01",
+            "period": "2019-11",
+            "value": 1.5904130954130125,
+            "level": 269.41164166399136,
+            "baseline": 265.1939621615298
+          },
+          {
+            "date": "2019-12-01",
+            "period": "2019-12",
+            "value": 1.5207994631490918,
+            "level": 269.68528113602804,
+            "baseline": 265.6453481081192
+          },
+          {
+            "date": "2020-01-01",
+            "period": "2020-01",
+            "value": 1.4586749391029663,
+            "level": 269.95597432735894,
+            "baseline": 266.07480778690496
+          },
+          {
+            "date": "2020-02-01",
+            "period": "2020-02",
+            "value": 1.404539526035875,
+            "level": 270.2259329454864,
+            "baseline": 266.4830728570147
+          },
+          {
+            "date": "2020-03-01",
+            "period": "2020-03",
+            "value": 1.3588282215037273,
+            "level": 270.49738595319025,
+            "baseline": 266.87106658539983
+          },
+          {
+            "date": "2020-04-01",
+            "period": "2020-04",
+            "value": 1.3219078204299795,
+            "level": 270.7725611369389,
+            "baseline": 267.23989605172227
+          },
+          {
+            "date": "2020-05-01",
+            "period": "2020-05",
+            "value": 1.2940742358646506,
+            "level": 271.05366683093695,
+            "baseline": 267.5908426783039
+          },
+          {
+            "date": "2020-06-01",
+            "period": "2020-06",
+            "value": 1.275550348775445,
+            "level": 271.34287394368255,
+            "baseline": 267.92535119209396
+          },
+          {
+            "date": "2020-07-01",
+            "period": "2020-07",
+            "value": 1.2664843951808669,
+            "level": 271.64229842494615,
+            "baseline": 268.24501714199255
+          },
+          {
+            "date": "2020-08-01",
+            "period": "2020-08",
+            "value": 1.2669488966240428,
+            "level": 271.95398430136146,
+            "baseline": 268.55157310899057
+          },
+          {
+            "date": "2020-09-01",
+            "period": "2020-09",
+            "value": 1.276940137853666,
+            "level": 272.279887398645,
+            "baseline": 268.846873758261
+          },
+          {
+            "date": "2020-10-01",
+            "period": "2020-10",
+            "value": 1.296378193567338,
+            "level": 272.6218598580892,
+            "baseline": 269.1328798914566
+          },
+          {
+            "date": "2020-11-01",
+            "period": "2020-11",
+            "value": 1.3251075041230909,
+            "level": 272.98163554466214,
+            "baseline": 269.41164166399136
+          },
+          {
+            "date": "2020-12-01",
+            "period": "2020-12",
+            "value": 1.3628979981714417,
+            "level": 273.360816433994,
+            "baseline": 269.68528113602804
+          },
+          {
+            "date": "2021-01-01",
+            "period": "2021-01",
+            "value": 1.4094467581399428,
+            "level": 273.760860055921,
+            "baseline": 269.95597432735894
+          },
+          {
+            "date": "2021-02-01",
+            "period": "2021-02",
+            "value": 1.4643802223558877,
+            "level": 274.1830680632168,
+            "baseline": 270.2259329454864
+          },
+          {
+            "date": "2021-03-01",
+            "period": "2021-03",
+            "value": 1.527256915260189,
+            "level": 274.6285759857584,
+            "baseline": 270.49738595319025
+          },
+          {
+            "date": "2021-04-01",
+            "period": "2021-04",
+            "value": 1.5975706946065538,
+            "level": 275.09834422269824,
+            "baseline": 270.7725611369389
+          },
+          {
+            "date": "2021-05-01",
+            "period": "2021-05",
+            "value": 1.6747545017116394,
+            "level": 275.5931503182425,
+            "baseline": 271.05366683093695
+          },
+          {
+            "date": "2021-06-01",
+            "period": "2021-06",
+            "value": 1.7581845977058919,
+            "level": 276.1135825603329,
+            "baseline": 271.34287394368255
+          },
+          {
+            "date": "2021-07-01",
+            "period": "2021-07",
+            "value": 1.847185265316087,
+            "level": 276.6600349358177,
+            "baseline": 271.64229842494615
+          },
+          {
+            "date": "2021-08-01",
+            "period": "2021-08",
+            "value": 1.9410339520016473,
+            "level": 277.23270347047213,
+            "baseline": 271.95398430136146
+          },
+          {
+            "date": "2021-09-01",
+            "period": "2021-09",
+            "value": 2.0389668262836613,
+            "level": 277.8315839773459,
+            "baseline": 272.279887398645
+          },
+          {
+            "date": "2021-10-01",
+            "period": "2021-10",
+            "value": 2.1401847148935005,
+            "level": 278.4564712322304,
+            "baseline": 272.6218598580892
+          },
+          {
+            "date": "2021-11-01",
+            "period": "2021-11",
+            "value": 2.2438593839791077,
+            "level": 279.1069595903707,
+            "baseline": 272.98163554466214
+          },
+          {
+            "date": "2021-12-01",
+            "period": "2021-12",
+            "value": 2.349140123115223,
+            "level": 279.78244505372027,
+            "baseline": 273.360816433994
+          },
+          {
+            "date": "2022-01-01",
+            "period": "2022-01",
+            "value": 2.455160586354843,
+            "level": 280.48212879288,
+            "baseline": 273.760860055921
+          },
+          {
+            "date": "2022-02-01",
+            "period": "2022-02",
+            "value": 2.561045840132703,
+            "level": 281.20502212219805,
+            "baseline": 274.1830680632168
+          },
+          {
+            "date": "2022-03-01",
+            "period": "2022-03",
+            "value": 2.6659195635936106,
+            "level": 281.94995292018126,
+            "baseline": 274.6285759857584
+          },
+          {
+            "date": "2022-04-01",
+            "period": "2022-04",
+            "value": 2.7689113429900214,
+            "level": 282.7155734802583,
+            "baseline": 275.09834422269824
+          },
+          {
+            "date": "2022-05-01",
+            "period": "2022-05",
+            "value": 2.869163998287294,
+            "level": 283.5003697689193,
+            "baseline": 275.5931503182425
+          },
+          {
+            "date": "2022-06-01",
+            "period": "2022-06",
+            "value": 2.9658408771555678,
+            "level": 284.3026720592859,
+            "baseline": 276.1135825603329
+          },
+          {
+            "date": "2022-07-01",
+            "period": "2022-07",
+            "value": 3.058133049227707,
+            "level": 285.1206668981948,
+            "baseline": 276.6600349358177
+          },
+          {
+            "date": "2022-08-01",
+            "period": "2022-08",
+            "value": 3.145266331968166,
+            "level": 285.95241035393406,
+            "baseline": 277.23270347047213
+          },
+          {
+            "date": "2022-09-01",
+            "period": "2022-09",
+            "value": 3.2265080788258294,
+            "level": 286.7958424799047,
+            "baseline": 277.8315839773459
+          },
+          {
+            "date": "2022-10-01",
+            "period": "2022-10",
+            "value": 3.3011736606100017,
+            "level": 287.6488029168128,
+            "baseline": 278.4564712322304
+          },
+          {
+            "date": "2022-11-01",
+            "period": "2022-11",
+            "value": 3.368632572294472,
+            "level": 288.5090475426727,
+            "baseline": 279.1069595903707
+          },
+          {
+            "date": "2022-12-01",
+            "period": "2022-12",
+            "value": 3.428314099755281,
+            "level": 289.374266066137,
+            "baseline": 279.78244505372027
+          },
+          {
+            "date": "2023-01-01",
+            "period": "2023-01",
+            "value": 3.4797124842961047,
+            "level": 290.24210044470533,
+            "baseline": 280.48212879288
+          },
+          {
+            "date": "2023-02-01",
+            "period": "2023-02",
+            "value": 3.522391527196933,
+            "level": 291.1101639954826,
+            "baseline": 281.20502212219805
+          },
+          {
+            "date": "2023-03-01",
+            "period": "2023-03",
+            "value": 3.5559885818973402,
+            "level": 291.97606105268784,
+            "baseline": 281.94995292018126
+          },
+          {
+            "date": "2023-04-01",
+            "period": "2023-04",
+            "value": 3.5802178877255786,
+            "level": 292.83740701338445,
+            "baseline": 282.7155734802583
+          },
+          {
+            "date": "2023-05-01",
+            "period": "2023-05",
+            "value": 3.594873206219251,
+            "level": 293.69184860127467,
+            "baseline": 283.5003697689193
+          },
+          {
+            "date": "2023-06-01",
+            "period": "2023-06",
+            "value": 3.599829728934556,
+            "level": 294.5370841682314,
+            "baseline": 284.3026720592859
+          },
+          {
+            "date": "2023-07-01",
+            "period": "2023-07",
+            "value": 3.5950452340734573,
+            "level": 295.37088384487686,
+            "baseline": 285.1206668981948
+          },
+          {
+            "date": "2023-08-01",
+            "period": "2023-08",
+            "value": 3.5805604781178557,
+            "level": 296.19110934529243,
+            "baseline": 285.95241035393406
+          },
+          {
+            "date": "2023-09-01",
+            "period": "2023-09",
+            "value": 3.556498817784104,
+            "level": 296.99573322715645,
+            "baseline": 286.7958424799047
+          },
+          {
+            "date": "2023-10-01",
+            "period": "2023-10",
+            "value": 3.523065066822073,
+            "level": 297.7828574075069,
+            "baseline": 287.6488029168128
+          },
+          {
+            "date": "2023-11-01",
+            "period": "2023-11",
+            "value": 3.48054360131016,
+            "level": 298.5507307361201,
+            "baseline": 288.5090475426727
+          },
+          {
+            "date": "2023-12-01",
+            "period": "2023-12",
+            "value": 3.429295735963489,
+            "level": 299.2977654333187,
+            "baseline": 289.374266066137
+          },
+          {
+            "date": "2024-01-01",
+            "period": "2024-01",
+            "value": 3.3697564024136817,
+            "level": 300.02255220694076,
+            "baseline": 290.24210044470533
+          },
+          {
+            "date": "2024-02-01",
+            "period": "2024-02",
+            "value": 3.3024301682823776,
+            "level": 300.7238738742057,
+            "baseline": 291.1101639954826
+          },
+          {
+            "date": "2024-03-01",
+            "period": "2024-03",
+            "value": 3.227886643016986,
+            "level": 301.4007173282147,
+            "baseline": 291.97606105268784
+          },
+          {
+            "date": "2024-04-01",
+            "period": "2024-04",
+            "value": 3.146755322774686,
+            "level": 302.0522837056535,
+            "baseline": 292.83740701338445
+          },
+          {
+            "date": "2024-05-01",
+            "period": "2024-05",
+            "value": 3.0597199320321344,
+            "level": 302.6779966316815,
+            "baseline": 293.69184860127467
+          },
+          {
+            "date": "2024-06-01",
+            "period": "2024-06",
+            "value": 2.9675123239983225,
+            "level": 303.27750843966896,
+            "baseline": 294.5370841682314
+          },
+          {
+            "date": "2024-07-01",
+            "period": "2024-07",
+            "value": 2.87090600527502,
+            "level": 303.85070428701334,
+            "baseline": 295.37088384487686
+          },
+          {
+            "date": "2024-08-01",
+            "period": "2024-08",
+            "value": 2.770709352528411,
+            "level": 304.3977041132801,
+            "baseline": 296.19110934529243
+          },
+          {
+            "date": "2024-09-01",
+            "period": "2024-09",
+            "value": 2.6677585902187717,
+            "level": 304.9188624129072,
+            "baseline": 296.99573322715645
+          },
+          {
+            "date": "2024-10-01",
+            "period": "2024-10",
+            "value": 2.5629105987194034,
+            "level": 305.4147658211734,
+            "baseline": 297.7828574075069
+          },
+          {
+            "date": "2024-11-01",
+            "period": "2024-11",
+            "value": 2.4570356214987044,
+            "level": 305.8862285385513,
+            "baseline": 298.5507307361201
+          },
+          {
+            "date": "2024-12-01",
+            "period": "2024-12",
+            "value": 2.351009938521087,
+            "level": 306.33428564442755,
+            "baseline": 299.2977654333187
+          },
+          {
+            "date": "2025-01-01",
+            "period": "2025-01",
+            "value": 2.245708570733629,
+            "level": 306.76018437598583,
+            "baseline": 300.02255220694076
+          },
+          {
+            "date": "2025-02-01",
+            "period": "2025-02",
+            "value": 2.14199807755755,
+            "level": 307.1653734713478,
+            "baseline": 300.7238738742057
+          },
+          {
+            "date": "2025-03-01",
+            "period": "2025-03",
+            "value": 2.04072950580656,
+            "level": 307.5514906974442,
+            "baseline": 301.4007173282147
+          },
+          {
+            "date": "2025-04-01",
+            "period": "2025-04",
+            "value": 1.9427315445313509,
+            "level": 307.92034870218055,
+            "baseline": 302.0522837056535
+          },
+          {
+            "date": "2025-05-01",
+            "period": "2025-05",
+            "value": 1.848803936056198,
+            "level": 308.27391934698403,
+            "baseline": 302.6779966316815
+          },
+          {
+            "date": "2025-06-01",
+            "period": "2025-06",
+            "value": 1.7597111890500061,
+            "level": 308.6143166895539,
+            "baseline": 303.27750843966896
+          },
+          {
+            "date": "2025-07-01",
+            "period": "2025-07",
+            "value": 1.6761766349649987,
+            "level": 308.94377879744883,
+            "baseline": 303.85070428701334
+          },
+          {
+            "date": "2025-08-01",
+            "period": "2025-08",
+            "value": 1.598876864683807,
+            "level": 309.26464858097603,
+            "baseline": 304.3977041132801
+          },
+          {
+            "date": "2025-09-01",
+            "period": "2025-09",
+            "value": 1.5284365778246212,
+            "level": 309.5793538387128,
+            "baseline": 304.9188624129072
+          },
+          {
+            "date": "2025-10-01",
+            "period": "2025-10",
+            "value": 1.4654238729370883,
+            "level": 309.8903867109917,
+            "baseline": 305.4147658211734
+          },
+          {
+            "date": "2025-11-01",
+            "period": "2025-11",
+            "value": 1.4103460028365156,
+            "level": 310.2002827359721,
+            "baseline": 305.8862285385513
+          },
+          {
+            "date": "2025-12-01",
+            "period": "2025-12",
+            "value": 1.3636456156069787,
+            "level": 310.5115996997187,
+            "baseline": 306.33428564442755
+          }
+        ],
+        "summary": {
+          "first": 2.1520021449030757,
+          "last": 1.3636456156069787,
+          "first_period": "2016-01",
+          "last_period": "2025-12",
+          "n": 120,
+          "min": 1.2664843951808669,
+          "max": 3.599829728934556,
+          "min_period": "2020-07",
+          "max_period": "2023-06",
+          "direction": "decreased",
+          "change_pp": -0.788356529296097,
+          "requested_start": "2016-01-01",
+          "requested_end": "2025-12-31",
+          "missing_periods": 0
+        },
+        "formulas": [
+          "100 * (C[m] / C[m-12] - 1)",
+          "Rate change in percentage points = last rate - first rate"
+        ],
+        "provenance": [
+          {
+            "snapshot_id": "DEMO-CPILFESL-v1",
+            "series": "CPILFESL",
+            "title": "DEMO / SYNTHETIC — not empirical economic findings: CPILFESL",
+            "frequency": "Monthly",
+            "native_units": "Index 1982-1984=100",
+            "seasonal_adjustment": "Seasonally Adjusted",
+            "source_url": "https://fred.stlouisfed.org/series/CPILFESL",
+            "source_urls": [
+              "https://fred.stlouisfed.org/series/CPILFESL"
+            ],
+            "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+            "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+            "observation_start": "2010-01-01",
+            "observation_end": "2025-12-01",
+            "realtime_parameters": {
+              "request": "none; synthetic fixture"
+            },
+            "demo": true,
+            "provenance_note": "Synthetic fixture timestamp; not a live retrieval",
+            "stale": false,
+            "data_warnings": [
+              "DEMO / SYNTHETIC — not empirical economic findings",
+              "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+            ]
+          }
+        ],
+        "warnings": [
+          "DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred.",
+          "Core CPI changes use the seasonally adjusted CPILFESL index; they need not exactly match every published BLS headline figure.",
+          "DEMO / SYNTHETIC — not empirical economic findings",
+          "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+        ],
+        "defaults": []
+      }
+    ],
+    "requested_start": "2016-01-01",
+    "requested_end": "2025-12-31",
+    "n": 160
+  },
+  "formulas": [
+    "100 * (G[q] / G[q-4] - 1)",
+    "Rate change in percentage points = last rate - first rate",
+    "100 * (C[m] / C[m-12] - 1)"
+  ],
+  "provenance": [
+    {
+      "snapshot_id": "DEMO-GDP-v1",
+      "series": "GDP",
+      "title": "DEMO / SYNTHETIC — not empirical economic findings: GDP",
+      "frequency": "Quarterly",
+      "native_units": "Billions of Dollars",
+      "seasonal_adjustment": "Seasonally Adjusted Annual Rate",
+      "source_url": "https://fred.stlouisfed.org/series/GDP",
+      "source_urls": [
+        "https://fred.stlouisfed.org/series/GDP"
+      ],
+      "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+      "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+      "observation_start": "2010-01-01",
+      "observation_end": "2025-10-01",
+      "realtime_parameters": {
+        "request": "none; synthetic fixture"
+      },
+      "demo": true,
+      "provenance_note": "Synthetic fixture timestamp; not a live retrieval",
+      "stale": false,
+      "data_warnings": [
+        "DEMO / SYNTHETIC — not empirical economic findings",
+        "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+      ]
+    },
+    {
+      "snapshot_id": "DEMO-CPILFESL-v1",
+      "series": "CPILFESL",
+      "title": "DEMO / SYNTHETIC — not empirical economic findings: CPILFESL",
+      "frequency": "Monthly",
+      "native_units": "Index 1982-1984=100",
+      "seasonal_adjustment": "Seasonally Adjusted",
+      "source_url": "https://fred.stlouisfed.org/series/CPILFESL",
+      "source_urls": [
+        "https://fred.stlouisfed.org/series/CPILFESL"
+      ],
+      "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+      "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+      "observation_start": "2010-01-01",
+      "observation_end": "2025-12-01",
+      "realtime_parameters": {
+        "request": "none; synthetic fixture"
+      },
+      "demo": true,
+      "provenance_note": "Synthetic fixture timestamp; not a live retrieval",
+      "stale": false,
+      "data_warnings": [
+        "DEMO / SYNTHETIC — not empirical economic findings",
+        "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+      ]
+    }
+  ],
+  "warnings": [
+    "DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred.",
+    "GDP is nominal, at SAAR; it is not real GDP or the actual dollar total for a quarter.",
+    "DEMO / SYNTHETIC — not empirical economic findings",
+    "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode.",
+    "Core CPI changes use the seasonally adjusted CPILFESL index; they need not exactly match every published BLS headline figure.",
+    "These two indicators do not provide a comprehensive assessment of the economy."
+  ],
+  "defaults": [
+    "Summary uses nominal GDP YoY growth and monthly seasonally adjusted Core CPI YoY inflation.",
+    "Monthly and quarterly observations remain at their native frequencies; use compare_indicators for aligned association."
+  ]
+}

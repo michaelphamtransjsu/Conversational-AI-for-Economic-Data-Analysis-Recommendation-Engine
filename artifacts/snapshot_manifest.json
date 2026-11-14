@@ -1,0 +1,116 @@
+{
+  "exported_at_utc": "2026-11-14T07:55:13.691187+00:00",
+  "exports": [
+    {
+      "caption": "DEMO / SYNTHETIC, not empirical findings. Metric: level; units: billions of dollars, seasonally adjusted annual rate (SAAR). Requested window: 2016-01-01 to 2025-12-31; valid observation coverage: 2016Q1 to 2025Q4; n=40. Formulas: G[q]: nominal GDP level, billions of dollars at seasonally adjusted annual rate (SAAR); Interval level change = last - first; percent change = 100 * (last / first - 1). Source GDP: https://fred.stlouisfed.org/series/GDP; snapshot DEMO-GDP-v1; retrieved UTC 2026-01-15T12:00:00+00:00; source last updated SYNTHETIC fixture version 1; no source update or release date (not a release date). Limitations: DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred. GDP is nominal, at SAAR; it is not real GDP or the actual dollar total for a quarter..",
+      "name": "gdp_level_ten_years",
+      "requested_end": "2025-12-31",
+      "requested_start": "2016-01-01",
+      "result_id": "demo_gdp_level_ten_years",
+      "rows": 40
+    },
+    {
+      "caption": "DEMO / SYNTHETIC, not empirical findings. Metric: yoy; units: percent, year-over-year. Requested window: 2021-01-01 to 2025-12-31; valid observation coverage: 2021-01 to 2025-12; n=60. Formulas: 100 * (C[m] / C[m-12] - 1); Rate change in percentage points = last rate - first rate. Source CPILFESL: https://fred.stlouisfed.org/series/CPILFESL; snapshot DEMO-CPILFESL-v1; retrieved UTC 2026-01-15T12:00:00+00:00; source last updated SYNTHETIC fixture version 1; no source update or release date (not a release date). Limitations: DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred. Core CPI changes use the seasonally adjusted CPILFESL index; they need not exactly match every published BLS headline figure..",
+      "name": "core_cpi_yoy_five_years",
+      "requested_end": "2025-12-31",
+      "requested_start": "2021-01-01",
+      "result_id": "demo_core_cpi_yoy_five_years",
+      "rows": 60
+    },
+    {
+      "caption": "DEMO / SYNTHETIC, not empirical findings. Metric: quarterly_yoy_comparison; units: percent, year-over-year, shared quarterly basis. Requested window: 2016-01-01 to 2025-12-31; valid observation coverage: 2016Q1 to 2025Q4; n=40. Quarterly Core CPI is YoY change of complete three-month quarterly-average seasonally adjusted index levels, not average monthly YoY rates. Pearson r=-0.633240; paired quarters=40. Formulas: GDP YoY = 100 * (G[q] / G[q-4] - 1); Cbar[q] = arithmetic mean of the three valid monthly seasonally adjusted CPI index levels in quarter q; Quarterly Core CPI YoY = 100 * (Cbar[q] / Cbar[q-4] - 1); Pearson r computed only on the exact inner-joined paired quarterly rows shown in the chart/data. Source GDP: https://fred.stlouisfed.org/series/GDP; snapshot DEMO-GDP-v1; retrieved UTC 2026-01-15T12:00:00+00:00; source last updated SYNTHETIC fixture version 1; no source update or release date (not a release date). Source CPILFESL: https://fred.stlouisfed.org/series/CPILFESL; snapshot DEMO-CPILFESL-v1; retrieved UTC 2026-01-15T12:00:00+00:00; source last updated SYNTHETIC fixture version 1; no source update or release date (not a release date). Limitations: DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred. Association within this selected window does not establish causality or predictive power. Nominal GDP already contains price effects; results depend on the sample, revisions and extreme observations. Only complete three-valid-month CPI quarters and valid four-quarter baselines are used; GDP is never interpolated to monthly frequency. Quarterly CPI inflation is YoY change of quarterly-average CPI levels, not the average of monthly YoY inflation rates..",
+      "name": "quarterly_gdp_core_cpi_comparison",
+      "requested_end": "2025-12-31",
+      "requested_start": "2016-01-01",
+      "result_id": "demo_quarterly_gdp_core_cpi_comparison",
+      "rows": 40
+    }
+  ],
+  "fixture_timestamp_note": "Fixed synthetic provenance; no FRED retrieval, source update, or release occurred.",
+  "fixture_timestamp_utc": "2026-01-15T12:00:00+00:00",
+  "generator": "fred_chat.demo.demo_snapshot v1",
+  "generator_source_sha256": "ff2c8b2d116954cace4ef316b3e6f62ee61917571f4143faa3653fc31920a437",
+  "label": "DEMO / SYNTHETIC — not empirical economic findings",
+  "live_fred_validated": false,
+  "llm_used": false,
+  "mode": "DEMO / SYNTHETIC, not empirical findings",
+  "series_ids": [
+    "GDP",
+    "CPILFESL"
+  ],
+  "snapshot_reproduction_note": "Snapshots reproduce these synthetic observations only. They are not historical FRED vintages.",
+  "snapshots": [
+    {
+      "demo": true,
+      "directory": "sample_data/snapshots/GDP/DEMO-GDP-v1",
+      "files": {
+        "observations.csv": {
+          "bytes": 1962,
+          "sha256": "0d07ee9001e899dd34d9db44442591a66fcdf27c7ae04b3f7b006a469d1d11b1"
+        },
+        "raw.json": {
+          "bytes": 152,
+          "sha256": "f54080211bb9800dc8c05e3c16dcfcf6d2590738d7aab3969e1d53f170f0ca5c"
+        },
+        "snapshot.json": {
+          "bytes": 5606,
+          "sha256": "36e8f5232228576878549db4efc5a049a1efa6eb32f9b64472d08233c42d1ace"
+        }
+      },
+      "label": "DEMO / SYNTHETIC — not empirical economic findings",
+      "observation_coverage": {
+        "count": 64,
+        "end": "2025-10-01",
+        "start": "2010-01-01"
+      },
+      "realtime_parameters": {
+        "request": "none; synthetic fixture"
+      },
+      "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+      "series_ids": [
+        "GDP"
+      ],
+      "snapshot_id": "DEMO-GDP-v1",
+      "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+      "source_urls": [
+        "https://fred.stlouisfed.org/series/GDP"
+      ]
+    },
+    {
+      "demo": true,
+      "directory": "sample_data/snapshots/CPILFESL/DEMO-CPILFESL-v1",
+      "files": {
+        "observations.csv": {
+          "bytes": 5851,
+          "sha256": "049e91ece4113cf35cf7d1bf8b8eae059480f8f171921182a0186ab72de79d20"
+        },
+        "raw.json": {
+          "bytes": 152,
+          "sha256": "f54080211bb9800dc8c05e3c16dcfcf6d2590738d7aab3969e1d53f170f0ca5c"
+        },
+        "snapshot.json": {
+          "bytes": 15143,
+          "sha256": "32ecbc64240819a947f42ea5c708b8506ad9d23693511fc605e3fd17e3a76df5"
+        }
+      },
+      "label": "DEMO / SYNTHETIC — not empirical economic findings",
+      "observation_coverage": {
+        "count": 192,
+        "end": "2025-12-01",
+        "start": "2010-01-01"
+      },
+      "realtime_parameters": {
+        "request": "none; synthetic fixture"
+      },
+      "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+      "series_ids": [
+        "CPILFESL"
+      ],
+      "snapshot_id": "DEMO-CPILFESL-v1",
+      "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+      "source_urls": [
+        "https://fred.stlouisfed.org/series/CPILFESL"
+      ]
+    }
+  ]
+}

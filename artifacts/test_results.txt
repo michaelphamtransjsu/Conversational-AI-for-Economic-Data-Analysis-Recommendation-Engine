@@ -1,0 +1,74 @@
+........................................................................ [ 39%]
+..........................................................s............. [ 79%]
+.....................................                                    [100%]
+=============================== warnings summary ===============================
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/kaleido/scopes/plotly.py:32: DeprecationWarning:
+  
+  
+  Use of plotly.io.kaleido.scope.default_format is deprecated and support will be removed after September 2025.
+  Please use plotly.io.defaults.default_format instead.
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/kaleido/scopes/plotly.py:33: DeprecationWarning:
+  
+  
+  Use of plotly.io.kaleido.scope.default_width is deprecated and support will be removed after September 2025.
+  Please use plotly.io.defaults.default_width instead.
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/kaleido/scopes/plotly.py:34: DeprecationWarning:
+  
+  
+  Use of plotly.io.kaleido.scope.default_height is deprecated and support will be removed after September 2025.
+  Please use plotly.io.defaults.default_height instead.
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/kaleido/scopes/plotly.py:35: DeprecationWarning:
+  
+  
+  Use of plotly.io.kaleido.scope.default_scale is deprecated and support will be removed after September 2025.
+  Please use plotly.io.defaults.default_scale instead.
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/plotly/io/_kaleido.py:133: DeprecationWarning:
+  
+  
+  Use of plotly.io.kaleido.scope.mathjax is deprecated and support will be removed after September 2025.
+  Please use plotly.io.defaults.mathjax instead.
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/plotly/io/_kaleido.py:141: DeprecationWarning:
+  
+  
+  Use of plotly.io.kaleido.scope.plotlyjs is deprecated and support will be removed after September 2025.
+  Please use plotly.io.defaults.plotlyjs instead.
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/plotly/io/_kaleido.py:147: DeprecationWarning:
+  
+  
+  Use of plotly.io.kaleido.scope.mathjax is deprecated and support will be removed after September 2025.
+  Please use plotly.io.defaults.mathjax instead.
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/src/fred_chat/charts.py:162: DeprecationWarning:
+  
+  
+  Support for Kaleido versions less than 1.0.0 is deprecated and will be removed after September 2025.
+  Please upgrade Kaleido to version 1.0.0 or greater (`pip install 'kaleido>=1.0.0'` or `pip install 'plotly[kaleido]'`).
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/plotly/basedatatypes.py:3801: DeprecationWarning:
+  
+  
+  Support for Kaleido versions less than 1.0.0 is deprecated and will be removed after September 2025.
+  Please upgrade Kaleido to version 1.0.0 or greater (`pip install 'kaleido>=1.0.0'` or `pip install 'plotly[kaleido]'`).
+
+tests/test_charts.py::test_actual_png_export_has_png_signature
+  /workspace/Conversational-AI-for-Economic-Data-Analysis-Recommendation-Engine/.venv/lib/python3.12/site-packages/kaleido/scopes/base.py:188: DeprecationWarning:
+  
+  setDaemon() is deprecated, set the daemon attribute instead
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+180 passed, 1 skipped, 10 warnings in 8.18s

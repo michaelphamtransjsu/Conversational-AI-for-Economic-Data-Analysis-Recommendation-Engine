@@ -1,0 +1,22 @@
+flowchart TD
+    U["User question or follow-up"] --> UI["Streamlit dashboard and chat\nSession-local state"]
+    UI --> O["Conversation orchestrator\nContext + deterministic fallback\n6 tools / 8 model calls / 1 repair"]
+    O <--> L["Optional OpenAI adapter\nStructured tool calls + fixed-note IDs\nNo displayed free-form model prose"]
+    O --> V["Pydantic tool dispatcher\nGDP / CPILFESL allowlist\nNo executable user code"]
+    V --> D["Data service\nFull native histories; latest forces refresh"]
+    D <--> C["Immutable snapshot cache\nJSON / CSV / raw / SHA-256 manifest\n6-hour TTL; preserve older snapshots"]
+    D <--> F["Bounded FRED HTTP client\nMetadata + observations\nValidation / pagination / retries"]
+    F <--> API["FRED API\nServer-side key"]
+    C --> R["Explicit stale fallback or\nclear unavailable error"]
+    F --> R
+    R --> D
+    D --> A["Deterministic Python economics\nCalendar lags; complete CPI quarters\nAligned YoY rates + Pearson sample"]
+    A --> E["Typed evidence bundle\nExact records, periods, units, formulas\nSources, snapshots, freshness, limits"]
+    E --> N["Deterministic numeric templates\nOptional fixed evidence-supported notes"]
+    E --> P["Plotly named chart templates\nExact evidence rows; visible gaps"]
+    N --> UI
+    P --> UI
+    E --> X["CSV / evidence JSON / HTML / PNG\nSession conversation Markdown\nPreserved captions + provenance"]
+    P --> X
+    O --> X
+    X --> UI

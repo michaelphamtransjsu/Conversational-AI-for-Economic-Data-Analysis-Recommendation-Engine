@@ -1,0 +1,35 @@
+{
+  "demo": true,
+  "files": {
+    "observations.csv": {
+      "bytes": 5851,
+      "sha256": "049e91ece4113cf35cf7d1bf8b8eae059480f8f171921182a0186ab72de79d20"
+    },
+    "raw.json": {
+      "bytes": 152,
+      "sha256": "f54080211bb9800dc8c05e3c16dcfcf6d2590738d7aab3969e1d53f170f0ca5c"
+    },
+    "snapshot.json": {
+      "bytes": 15143,
+      "sha256": "32ecbc64240819a947f42ea5c708b8506ad9d23693511fc605e3fd17e3a76df5"
+    }
+  },
+  "label": "DEMO / SYNTHETIC — not empirical economic findings",
+  "observation_coverage": {
+    "count": 192,
+    "end": "2025-12-01",
+    "start": "2010-01-01"
+  },
+  "realtime_parameters": {
+    "request": "none; synthetic fixture"
+  },
+  "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+  "series_ids": [
+    "CPILFESL"
+  ],
+  "snapshot_id": "DEMO-CPILFESL-v1",
+  "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+  "source_urls": [
+    "https://fred.stlouisfed.org/series/CPILFESL"
+  ]
+}

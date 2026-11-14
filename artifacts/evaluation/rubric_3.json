@@ -1,0 +1,69 @@
+{
+  "result_id": "result_d46bba591bd94070a44ad7b721ed34bc",
+  "operation": "latest_indicator",
+  "series": [
+    "CPILFESL"
+  ],
+  "metric": "yoy",
+  "units": "percent, year-over-year",
+  "start": "2025-12-01",
+  "end": "2025-12-01",
+  "records": [
+    {
+      "date": "2025-12-01",
+      "period": "2025-12",
+      "value": 1.3636456156069787,
+      "level": 310.5115996997187,
+      "baseline": 306.33428564442755
+    }
+  ],
+  "summary": {
+    "value": 1.3636456156069787,
+    "period": "2025-12",
+    "n": 1,
+    "newest_dated_period": "2025-12",
+    "latest_valid_level_period": "2025-12",
+    "observation_date": "2025-12-01",
+    "mom_value": 0.10035998710278271,
+    "mom_period": "2025-12"
+  },
+  "formulas": [
+    "100 * (C[m] / C[m-12] - 1)",
+    "100 * (C[m] / C[m-1] - 1)"
+  ],
+  "provenance": [
+    {
+      "snapshot_id": "DEMO-CPILFESL-v1",
+      "series": "CPILFESL",
+      "title": "DEMO / SYNTHETIC — not empirical economic findings: CPILFESL",
+      "frequency": "Monthly",
+      "native_units": "Index 1982-1984=100",
+      "seasonal_adjustment": "Seasonally Adjusted",
+      "source_url": "https://fred.stlouisfed.org/series/CPILFESL",
+      "source_urls": [
+        "https://fred.stlouisfed.org/series/CPILFESL"
+      ],
+      "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+      "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+      "observation_start": "2010-01-01",
+      "observation_end": "2025-12-01",
+      "realtime_parameters": {
+        "request": "none; synthetic fixture"
+      },
+      "demo": true,
+      "provenance_note": "Synthetic fixture timestamp; not a live retrieval",
+      "stale": false,
+      "data_warnings": [
+        "DEMO / SYNTHETIC — not empirical economic findings",
+        "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+      ]
+    }
+  ],
+  "warnings": [
+    "DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred.",
+    "Core CPI changes use the seasonally adjusted CPILFESL index; they need not exactly match every published BLS headline figure.",
+    "DEMO / SYNTHETIC — not empirical economic findings",
+    "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+  ],
+  "defaults": []
+}

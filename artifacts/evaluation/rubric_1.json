@@ -1,0 +1,65 @@
+{
+  "result_id": "result_0ecdc69fe62742b8a88b520c02801700",
+  "operation": "latest_indicator",
+  "series": [
+    "GDP"
+  ],
+  "metric": "level",
+  "units": "billions of dollars, seasonally adjusted annual rate (SAAR)",
+  "start": "2025-10-01",
+  "end": "2025-10-01",
+  "records": [
+    {
+      "date": "2025-10-01",
+      "period": "2025Q4",
+      "value": 30621.065111569547,
+      "level": 30621.065111569547
+    }
+  ],
+  "summary": {
+    "value": 30621.065111569547,
+    "period": "2025Q4",
+    "n": 1,
+    "newest_dated_period": "2025Q4",
+    "latest_valid_level_period": "2025Q4",
+    "observation_date": "2025-10-01"
+  },
+  "formulas": [
+    "G[q]: nominal GDP level, billions of dollars at seasonally adjusted annual rate (SAAR)"
+  ],
+  "provenance": [
+    {
+      "snapshot_id": "DEMO-GDP-v1",
+      "series": "GDP",
+      "title": "DEMO / SYNTHETIC — not empirical economic findings: GDP",
+      "frequency": "Quarterly",
+      "native_units": "Billions of Dollars",
+      "seasonal_adjustment": "Seasonally Adjusted Annual Rate",
+      "source_url": "https://fred.stlouisfed.org/series/GDP",
+      "source_urls": [
+        "https://fred.stlouisfed.org/series/GDP"
+      ],
+      "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+      "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+      "observation_start": "2010-01-01",
+      "observation_end": "2025-10-01",
+      "realtime_parameters": {
+        "request": "none; synthetic fixture"
+      },
+      "demo": true,
+      "provenance_note": "Synthetic fixture timestamp; not a live retrieval",
+      "stale": false,
+      "data_warnings": [
+        "DEMO / SYNTHETIC — not empirical economic findings",
+        "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+      ]
+    }
+  ],
+  "warnings": [
+    "DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred.",
+    "GDP is nominal, at SAAR; it is not real GDP or the actual dollar total for a quarter.",
+    "DEMO / SYNTHETIC — not empirical economic findings",
+    "Fixture timestamp is provenance, not a live retrieval. Refresh does not contact FRED in DEMO mode."
+  ],
+  "defaults": []
+}

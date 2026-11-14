@@ -1,0 +1,35 @@
+{
+  "demo": true,
+  "files": {
+    "observations.csv": {
+      "bytes": 1962,
+      "sha256": "0d07ee9001e899dd34d9db44442591a66fcdf27c7ae04b3f7b006a469d1d11b1"
+    },
+    "raw.json": {
+      "bytes": 152,
+      "sha256": "f54080211bb9800dc8c05e3c16dcfcf6d2590738d7aab3969e1d53f170f0ca5c"
+    },
+    "snapshot.json": {
+      "bytes": 5606,
+      "sha256": "36e8f5232228576878549db4efc5a049a1efa6eb32f9b64472d08233c42d1ace"
+    }
+  },
+  "label": "DEMO / SYNTHETIC — not empirical economic findings",
+  "observation_coverage": {
+    "count": 64,
+    "end": "2025-10-01",
+    "start": "2010-01-01"
+  },
+  "realtime_parameters": {
+    "request": "none; synthetic fixture"
+  },
+  "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+  "series_ids": [
+    "GDP"
+  ],
+  "snapshot_id": "DEMO-GDP-v1",
+  "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+  "source_urls": [
+    "https://fred.stlouisfed.org/series/GDP"
+  ]
+}

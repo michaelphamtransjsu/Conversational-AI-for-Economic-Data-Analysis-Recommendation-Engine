@@ -1,0 +1,44 @@
+digraph FRED {
+  graph [rankdir=TB, bgcolor="white", pad="0.35", nodesep="0.35", ranksep="0.50", fontname="DejaVu Sans", label="FRED Economic Conversation — implemented application", labelloc=t, fontsize=21];
+  node [shape=box, style="rounded,filled", fillcolor="#eff6ff", color="#53739b", fontname="DejaVu Sans", fontsize=11, margin="0.18,0.13"];
+  edge [color="#61758c", arrowsize=0.7];
+  user [label="User question or follow-up", shape=oval, fillcolor="#ffffff"];
+  ui [label="Streamlit dashboard and chat\nSession-local state", fillcolor="#dcecff"];
+  orchestrator [label="Conversation orchestrator\nContext + deterministic fallback\n6 tools / 8 model calls / 1 repair"];
+  llm [label="Optional OpenAI adapter\nStructured tool calls + fixed-note IDs\nNo displayed free-form model prose", fillcolor="#f0eaff", color="#8873b0"];
+  dispatcher [label="Pydantic tool dispatcher\nGDP / CPILFESL allowlist\nNo executable user code"];
+  service [label="Data service\nFull native histories; latest forces refresh", fillcolor="#e5f4ee", color="#639780"];
+  cache [label="Immutable snapshot cache\nJSON / CSV / raw / SHA-256 manifest\n6-hour TTL; preserve older snapshots", shape=cylinder, fillcolor="#e5f4ee", color="#639780"];
+  client [label="Bounded FRED HTTP client\nMetadata + observations\nValidation / pagination / retries", fillcolor="#e5f4ee", color="#639780"];
+  api [label="FRED API\nServer-side key", shape=oval, fillcolor="#ffffff"];
+  recovery [label="Explicit stale fallback or\nclear unavailable error", fillcolor="#fff2d9", color="#b38b47"];
+  analytics [label="Deterministic Python economics\nCalendar lags; complete CPI quarters\nAligned YoY rates + Pearson sample", fillcolor="#e5f4ee", color="#639780"];
+  evidence [label="Typed evidence bundle\nExact records, periods, units, formulas\nSources, snapshots, freshness, limits", fillcolor="#dcecff", penwidth=2];
+  narrative [label="Deterministic numeric templates\nOptional fixed evidence-supported notes"];
+  plotly [label="Plotly named chart templates\nExact evidence rows; visible gaps"];
+  exports [label="CSV / evidence JSON / HTML / PNG\nSession conversation Markdown\nPreserved captions + provenance", fillcolor="#fff2d9", color="#b38b47"];
+  user -> ui;
+  ui -> orchestrator;
+  orchestrator -> llm [dir=both];
+  orchestrator -> dispatcher;
+  dispatcher -> service;
+  service -> cache [dir=both];
+  service -> client [dir=both];
+  client -> api [dir=both];
+  cache -> recovery;
+  client -> recovery;
+  recovery -> service;
+  service -> analytics;
+  analytics -> evidence;
+  evidence -> narrative;
+  evidence -> plotly;
+  narrative -> ui [constraint=false];
+  plotly -> ui [constraint=false];
+  evidence -> exports;
+  plotly -> exports;
+  orchestrator -> exports [constraint=false];
+  exports -> ui [constraint=false];
+  {rank=same; llm; orchestrator;}
+  {rank=same; cache; client;}
+  {rank=same; narrative; plotly;}
+}

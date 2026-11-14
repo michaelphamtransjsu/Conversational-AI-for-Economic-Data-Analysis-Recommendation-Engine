@@ -1,0 +1,302 @@
+{
+  "defaults": [],
+  "end": "2025-12-31",
+  "formulas": [
+    "G[q]: nominal GDP level, billions of dollars at seasonally adjusted annual rate (SAAR)",
+    "Interval level change = last - first; percent change = 100 * (last / first - 1)"
+  ],
+  "metric": "level",
+  "operation": "analyze_history",
+  "provenance": [
+    {
+      "demo": true,
+      "frequency": "Quarterly",
+      "native_units": "Billions of Dollars",
+      "observation_end": "2025-10-01",
+      "observation_start": "2010-01-01",
+      "provenance_note": "Synthetic fixture timestamp; not a live retrieval",
+      "realtime_parameters": {
+        "request": "none; synthetic fixture"
+      },
+      "retrieved_at_utc": "2026-01-15T12:00:00+00:00",
+      "seasonal_adjustment": "Seasonally Adjusted Annual Rate",
+      "series": "GDP",
+      "snapshot_id": "DEMO-GDP-v1",
+      "source_last_updated": "SYNTHETIC fixture version 1; no source update or release date",
+      "source_url": "https://fred.stlouisfed.org/series/GDP",
+      "source_urls": [
+        "https://fred.stlouisfed.org/series/GDP"
+      ],
+      "title": "DEMO / SYNTHETIC — not empirical economic findings: GDP"
+    }
+  ],
+  "records": [
+    {
+      "date": "2016-01-01",
+      "level": 19880.47256873602,
+      "period": "2016Q1",
+      "value": 19880.47256873602
+    },
+    {
+      "date": "2016-04-01",
+      "level": 20187.356897874004,
+      "period": "2016Q2",
+      "value": 20187.356897874004
+    },
+    {
+      "date": "2016-07-01",
+      "level": 20478.81703257589,
+      "period": "2016Q3",
+      "value": 20478.81703257589
+    },
+    {
+      "date": "2016-10-01",
+      "level": 20746.282515209266,
+      "period": "2016Q4",
+      "value": 20746.282515209266
+    },
+    {
+      "date": "2017-01-01",
+      "level": 20983.964088713205,
+      "period": "2017Q1",
+      "value": 20983.964088713205
+    },
+    {
+      "date": "2017-04-01",
+      "level": 21189.655538462583,
+      "period": "2017Q2",
+      "value": 21189.655538462583
+    },
+    {
+      "date": "2017-07-01",
+      "level": 21365.103649658682,
+      "period": "2017Q3",
+      "value": 21365.103649658682
+    },
+    {
+      "date": "2017-10-01",
+      "level": 21515.87544675739,
+      "period": "2017Q4",
+      "value": 21515.87544675739
+    },
+    {
+      "date": "2018-01-01",
+      "level": 21650.73741053438,
+      "period": "2018Q1",
+      "value": 21650.73741053438
+    },
+    {
+      "date": "2018-04-01",
+      "level": 21780.642895174584,
+      "period": "2018Q2",
+      "value": 21780.642895174584
+    },
+    {
+      "date": "2018-07-01",
+      "level": 21917.47982478273,
+      "period": "2018Q3",
+      "value": 21917.47982478273
+    },
+    {
+      "date": "2018-10-01",
+      "level": 22072.749515193776,
+      "period": "2018Q4",
+      "value": 22072.749515193776
+    },
+    {
+      "date": "2019-01-01",
+      "level": 22256.331561782605,
+      "period": "2019Q1",
+      "value": 22256.331561782605
+    },
+    {
+      "date": "2019-04-01",
+      "level": 22475.45251664868,
+      "period": "2019Q2",
+      "value": 22475.45251664868
+    },
+    {
+      "date": "2019-07-01",
+      "level": 22733.93460325551,
+      "period": "2019Q3",
+      "value": 22733.93460325551
+    },
+    {
+      "date": "2019-10-01",
+      "level": 23031.768133579626,
+      "period": "2019Q4",
+      "value": 23031.768133579626
+    },
+    {
+      "date": "2020-01-01",
+      "level": 23365.032237250605,
+      "period": "2020Q1",
+      "value": 23365.032237250605
+    },
+    {
+      "date": "2020-04-01",
+      "level": 23726.178719025076,
+      "period": "2020Q2",
+      "value": 23726.178719025076
+    },
+    {
+      "date": "2020-07-01",
+      "level": 24104.68332074234,
+      "period": "2020Q3",
+      "value": 24104.68332074234
+    },
+    {
+      "date": "2020-10-01",
+      "level": 24488.046734602685,
+      "period": "2020Q4",
+      "value": 24488.046734602685
+    },
+    {
+      "date": "2021-01-01",
+      "level": 24863.088500591115,
+      "period": "2021Q1",
+      "value": 24863.088500591115
+    },
+    {
+      "date": "2021-04-01",
+      "level": 25217.42329470104,
+      "period": "2021Q2",
+      "value": 25217.42329470104
+    },
+    {
+      "date": "2021-07-01",
+      "level": 25540.953776887673,
+      "period": "2021Q3",
+      "value": 25540.953776887673
+    },
+    {
+      "date": "2021-10-01",
+      "level": 25827.176542493507,
+      "period": "2021Q4",
+      "value": 25827.176542493507
+    },
+    {
+      "date": "2022-01-01",
+      "level": 26074.096835527547,
+      "period": "2022Q1",
+      "value": 26074.096835527547
+    },
+    {
+      "date": "2022-04-01",
+      "level": 26284.593365773166,
+      "period": "2022Q2",
+      "value": 26284.593365773166
+    },
+    {
+      "date": "2022-07-01",
+      "level": 26466.161126593717,
+      "period": "2022Q3",
+      "value": 26466.161126593717
+    },
+    {
+      "date": "2022-10-01",
+      "level": 26630.06639435231,
+      "period": "2022Q4",
+      "value": 26630.06639435231
+    },
+    {
+      "date": "2023-01-01",
+      "level": 26790.04502385897,
+      "period": "2023Q1",
+      "value": 26790.04502385897
+    },
+    {
+      "date": "2023-04-01",
+      "level": 26960.737428627977,
+      "period": "2023Q2",
+      "value": 26960.737428627977
+    },
+    {
+      "date": "2023-07-01",
+      "level": 27156.069690480588,
+      "period": "2023Q3",
+      "value": 27156.069690480588
+    },
+    {
+      "date": "2023-10-01",
+      "level": 27387.76548206908,
+      "period": "2023Q4",
+      "value": 27387.76548206908
+    },
+    {
+      "date": "2024-01-01",
+      "level": 27664.125646471955,
+      "period": "2024Q1",
+      "value": 27664.125646471955
+    },
+    {
+      "date": "2024-04-01",
+      "level": 27989.162138381438,
+      "period": "2024Q2",
+      "value": 27989.162138381438
+    },
+    {
+      "date": "2024-07-01",
+      "level": 28362.135415563596,
+      "period": "2024Q3",
+      "value": 28362.135415563596
+    },
+    {
+      "date": "2024-10-01",
+      "level": 28777.52323333469,
+      "period": "2024Q4",
+      "value": 28777.52323333469
+    },
+    {
+      "date": "2025-01-01",
+      "level": 29225.43750471925,
+      "period": "2025Q1",
+      "value": 29225.43750471925
+    },
+    {
+      "date": "2025-04-01",
+      "level": 29692.491594991458,
+      "period": "2025Q2",
+      "value": 29692.491594991458
+    },
+    {
+      "date": "2025-07-01",
+      "level": 30163.090517097462,
+      "period": "2025Q3",
+      "value": 30163.090517097462
+    },
+    {
+      "date": "2025-10-01",
+      "level": 30621.065111569547,
+      "period": "2025Q4",
+      "value": 30621.065111569547
+    }
+  ],
+  "result_id": "demo_gdp_level_ten_years",
+  "series": [
+    "GDP"
+  ],
+  "start": "2016-01-01",
+  "summary": {
+    "absolute_change": 10740.592542833529,
+    "direction": "increased",
+    "first": 19880.47256873602,
+    "first_period": "2016Q1",
+    "last": 30621.065111569547,
+    "last_period": "2025Q4",
+    "max": 30621.065111569547,
+    "max_period": "2025Q4",
+    "min": 19880.47256873602,
+    "min_period": "2016Q1",
+    "missing_periods": 0,
+    "n": 40,
+    "percent_change": 54.02584121528457,
+    "requested_end": "2025-12-31",
+    "requested_start": "2016-01-01"
+  },
+  "units": "billions of dollars, seasonally adjusted annual rate (SAAR)",
+  "warnings": [
+    "DEMO / SYNTHETIC — not empirical economic findings. No live retrieval occurred.",
+    "GDP is nominal, at SAAR; it is not real GDP or the actual dollar total for a quarter."
+  ]
+}
